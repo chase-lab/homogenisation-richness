@@ -1,0 +1,22 @@
+variable name	necessary	definition
+dataset_id	TRUE	NA
+year	TRUE	NA
+period	TRUE	NA
+regional	TRUE	archipelago name
+local	TRUE	"island, lake, forest name"
+latitude	TRUE	decimal degree, WGS84
+longitude	TRUE	decimal degree, WGS84
+effort	FALSE	NA
+checklist	FALSE	NA
+study_type	TRUE	one of "resurvey", "checklist" or "ecological sampling". A checklist has no well defined effort, it can be specialists lising all encountered species over an area or researchers aggregating species composition from the literature, museum collections, etc. RESURVEY: typically two samplings separated by a long, 20+ years, stretch of time and a great deal of effort is put in matching very precisely historical plots or transects. ECOLOGICAL SAMPLING: these studies generally involve more samplings than resurveys: 10 samplings, 1 every few years.
+alpha_grain	TRUE	NA
+alpha_grain_unit	TRUE	NA
+alpha_grain_type	TRUE	NA
+alpha_grain_comment	TRUE	NA
+gamma_extent	TRUE	NA
+gamma_extent_unit	TRUE	NA
+gamma_extent_type	TRUE	NA
+gamma_extent_comment	TRUE	NA
+realm	TRUE	NA
+taxon	TRUE	NA
+comment	TRUE	NA

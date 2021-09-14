@@ -1,0 +1,5 @@
+dataset_id,regional,year,period,timepoints,regional_richness,local_richness
+van-der-berge_2019,"hedgerows, Turnhout",1974,historical,T1,70,8.69
+van-der-berge_2019,"hedgerows, Turnhout",2015,recent,T2,120,13.2
+van-der-berge_2019,"forest, Turnhout",1974,historical,T1,30,5.6
+van-der-berge_2019,"forest, Turnhout",2015,recent,T2,24,3.65

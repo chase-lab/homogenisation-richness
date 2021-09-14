@@ -1,0 +1,7 @@
+dataset_id,regional,local,year,taxon,realm,latitude,longitude,effort,study_type,alpha_grain,alpha_grain_unit,alpha_grain_type,alpha_grain_comment,gamma_extent,gamma_extent_unit,gamma_extent_type,gamma_extent_comment,comment
+larsen_2018b,Larsen_2018_Oceanic_sampling,Site_1,1984,mammals,marine,,,,ecological sampling,,,,,,,,,"Extracted from data shared by Larsen et al, June 2021."
+larsen_2018b,Larsen_2018_Oceanic_sampling,Site_2,1984,mammals,marine,,,,ecological sampling,,,,,,,,,"Extracted from data shared by Larsen et al, June 2021."
+larsen_2018b,Larsen_2018_Oceanic_sampling,Site_1,1995,mammals,marine,,,,ecological sampling,,,,,,,,,"Extracted from data shared by Larsen et al, June 2021."
+larsen_2018b,Larsen_2018_Oceanic_sampling,Site_2,1995,mammals,marine,,,,ecological sampling,,,,,,,,,"Extracted from data shared by Larsen et al, June 2021."
+larsen_2018b,Larsen_2018_Oceanic_sampling,Site_1,2012,mammals,marine,,,,ecological sampling,,,,,,,,,"Extracted from data shared by Larsen et al, June 2021."
+larsen_2018b,Larsen_2018_Oceanic_sampling,Site_2,2012,mammals,marine,,,,ecological sampling,,,,,,,,,"Extracted from data shared by Larsen et al, June 2021."

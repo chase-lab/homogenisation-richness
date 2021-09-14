@@ -1,0 +1,9 @@
+variable name	necessary	definition
+dataset_id	TRUE	NA
+year	TRUE	NA
+period	TRUE	NA
+timepoints	TRUE	NA
+regional_name	TRUE	archipelago name
+regional_richness	TRUE	taxonomic richness
+local_name	TRUE	"island, lake, forest name"
+local_richness	TRUE	NA

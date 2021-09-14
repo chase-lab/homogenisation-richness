@@ -1,0 +1,3 @@
+dataset_id,regional,year,period,timepoints,regional_richness,local_richness
+hassall_2012a,"Cheshire, England",1995,historical,T1,149,23.5
+hassall_2012a,"Cheshire, England",2006,recent,T2,142,22.3
