@@ -1,7 +1,7 @@
 local,year,local_richness,dataset_id,regional,regional_richness,timepoints
-Site_1,1984,19.65517,larsen_2018b,Larsen_2018_Oceanic_sampling,80,T1
-Site_2,1984,9.183102,larsen_2018b,Larsen_2018_Oceanic_sampling,80,T1
-Site_1,1995,19.2069,larsen_2018b,Larsen_2018_Oceanic_sampling,86,T2
-Site_2,1995,7.820747,larsen_2018b,Larsen_2018_Oceanic_sampling,86,T2
-Site_1,2012,20.89655,larsen_2018b,Larsen_2018_Oceanic_sampling,82,T3
-Site_2,2012,9.956266,larsen_2018b,Larsen_2018_Oceanic_sampling,82,T3
+Site_1,1984,19.65517,larsen_2018b,Wales,80,T1
+Site_2,1984,9.183102,larsen_2018b,Wales,80,T1
+Site_1,1995,19.2069,larsen_2018b,Wales,86,T2
+Site_2,1995,7.820747,larsen_2018b,Wales,86,T2
+Site_1,2012,20.89655,larsen_2018b,Wales,82,T3
+Site_2,2012,9.956266,larsen_2018b,Wales,82,T3

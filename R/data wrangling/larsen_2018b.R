@@ -19,7 +19,7 @@ ddata <- data.table::melt(ddata,
 
 ddata[, ":="(
   dataset_id = dataset_id,
-  regional = "Larsen_2018_Oceanic_sampling",
+  regional = "Wales",
   regional_richness = unlist(raw_ddata[4, 2:4])[match(year, c("1984", "1995", "2012"))],
   timepoints = paste0('T', seq_along(unique(year))[match(year, sort(unique(year)))])
 )]
@@ -29,26 +29,26 @@ ddata[, ":="(
 
 meta <- unique(ddata[, .(dataset_id, regional, local, year)])
 meta[, ':='(
-  taxon = 'mammals',
-  realm = 'marine',
+  taxon = 'invertebrates',
+  realm = 'freshwater',
 
-  latitude =  NA,
-  longitude = NA,
+  latitude =  "52° 18′ 0'' N",
+  longitude = "3° 36′ 0'' W",
 
-  effort = NA,
+  effort = 1L,
   study_type = "ecological sampling",
 
   alpha_grain = NA,
   alpha_grain_unit = NA,
   alpha_grain_type = NA,
-  alpha_grain_comment = NA,
+  alpha_grain_comment = "alpha is a stream sampled in a standardised way",
 
-  gamma_extent = NA,
-  gamma_extent_unit = NA,
-  gamma_extent_type = NA,
-  gamma_extent_comment = NA,
+  gamma_extent = 20779L,
+  gamma_extent_unit = "km2",
+  gamma_extent_type = "administrative",
+  gamma_extent_comment = "area of Wales",
 
-  comment = "Extracted from data shared by Larsen et al, June 2021."
+  comment = "Extracted from data Larsen, S., Chase, J.M., Durance, I. and Ormerod, S.J. (2018), Lifting the veil: richness measurements fail to detect systematic biodiversity change over three decades. Ecology, 99: 1316-1326. https://doi.org/10.1002/ecy.2213. Here, mean richness of 56 streams throughout Wales were used for alpha and gamma is for the country."
 )]
 
 dir.create(paste0('data/wrangled data/', dataset_id), showWarnings = FALSE)

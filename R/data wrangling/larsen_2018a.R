@@ -16,7 +16,7 @@ ddata <- data.table::melt(ddata,
 
 ddata[, ":="(
   dataset_id = dataset_id,
-  regional = "watershed",
+  regional = "Llyn Brianne",
 
   timepoints = paste0('T', seq_along(unique(year))[match(year, sort(unique(year)))]),
 
@@ -28,26 +28,26 @@ ddata[, ":="(
 
 meta <- unique(ddata[, .(dataset_id, regional, local, year)])
 meta[, ':='(
-  taxon = '',
+  taxon = 'invertebrates',
   realm = 'freshwater',
 
-  latitude =  NA,
-  longitude = NA,
+  latitude =  "52°80 N",
+  longitude = " 3°450 W",
 
-  effort = NA,
+  effort = 1L,
   study_type = "ecological sampling",
 
-  alpha_grain = NA,
-  alpha_grain_unit = NA,
-  alpha_grain_type = NA,
-  alpha_grain_comment = NA,
+  alpha_grain = 23 * 25.5,
+  alpha_grain_unit = "cm2",
+  alpha_grain_type = "sample",
+  alpha_grain_comment = "hand net dimension given by the authors",
 
-  gamma_extent = NA,
-  gamma_extent_unit = NA,
-  gamma_extent_type = NA,
-  gamma_extent_comment = NA,
+  gamma_extent = 300,
+  gamma_extent_unit = "km2",
+  gamma_extent_type = "catchement",
+  gamma_extent_comment = "area of the Llyn Brianne watershed",
 
-  comment = "Extracted from data shared by Larsen et al, June 2021."
+  comment = "Extracted from data Larsen, S., Chase, J.M., Durance, I. and Ormerod, S.J. (2018), Lifting the veil: richness measurements fail to detect systematic biodiversity change over three decades. Ecology, 99: 1316-1326. https://doi.org/10.1002/ecy.2213. Here, composition of 10 streams of the Llyn Brianne watershed were used."
 )]
 
 dir.create(paste0('data/wrangled data/', dataset_id), showWarnings = FALSE)
