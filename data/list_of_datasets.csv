@@ -1,6 +1,6 @@
 ﻿dataset_id,authors,title,year_of_publication,journal/book/repository,reference,contact person,contact email address,last version publication date dd-mm-yy,version,date of access dd-mm-yy,DOI,download URL,URL,right to reuse,license,country,taxa1,taxa2,measure,year begin,year end,status,follow up,limitation,standardisation,data availability,data format
-larsen_2018a,,Llyn Brianne,,,,,,,,,,,,,,,,,,,,wrangled,merge,,,,
-larsen_2018b,,Wales,,,,,,,,,,,,,,,,,,,,wrangled,merge,average alpha richness,,,
+larsen_2018a,,Llyn Brianne,,,,,,,,,,,,,,,,,,,,wrangled,metadata,,,,
+larsen_2018b,,Wales,,,,,,,,,,,,,,,,,,,,wrangled,metadata,average alpha richness,,,
 hassall_2012a,,,,,,,,,,,,,Temporal dynamics of aquatic communities and implications for pond conservation | SpringerLink,,,,plants,,,,,wrangled,merge,S at 1 gamma scale for two time periods - table 6,the same 51 ponds in 1995/6 (“survey 1”) and 2006 (“survey 2”),,
 hassall_2012b,,,,,,,,,,,,,Temporal dynamics of aquatic communities and implications for pond conservation | SpringerLink,,,,invertebrates,,,,,wrangled,merge,S at 1 gamma scale for two time periods - table 5,the same 51 ponds in 1995/6 (“survey 1”) and 2006 (“survey 2”),,
 van-den-berge_2019,,,,,"Van Den Berge, S, Tessens, S, Baeten, L, Vanderschaeve, C, Verheyen, K, Schmidtlein, S. Contrasting vegetation change (1974–2015) in hedgerows and forests in an intensively used agricultural landscape. Appl Veg Sci. 2019; 22: 269– 281. https://doi.org/10.1111/avsc.12424 ",,,,,,,,https://onlinelibrary.wiley.com/doi/10.1111/avsc.12424,,,belgium,plants,,,,,wrangled,merge,,none,data in table 1,
