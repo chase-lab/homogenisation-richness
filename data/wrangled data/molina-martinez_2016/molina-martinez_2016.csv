@@ -1,0 +1,17 @@
+dataset_id,regional,local,year,period,timepoints,regional_richness,local_richness
+molina-martinez_2016,"Sierra de Juarez, Mexico",117,1988,historical,T1,221,131
+molina-martinez_2016,"Sierra de Juarez, Mexico",117,2010,recent,T2,178,101
+molina-martinez_2016,"Sierra de Juarez, Mexico",600,1988,historical,T1,221,128
+molina-martinez_2016,"Sierra de Juarez, Mexico",600,2010,recent,T2,178,90
+molina-martinez_2016,"Sierra de Juarez, Mexico",800,1988,historical,T1,221,136
+molina-martinez_2016,"Sierra de Juarez, Mexico",800,2010,recent,T2,178,99
+molina-martinez_2016,"Sierra de Juarez, Mexico",1300,1988,historical,T1,221,91
+molina-martinez_2016,"Sierra de Juarez, Mexico",1300,2010,recent,T2,178,71
+molina-martinez_2016,"Sierra de Juarez, Mexico",1600,1988,historical,T1,221,66
+molina-martinez_2016,"Sierra de Juarez, Mexico",1600,2010,recent,T2,178,57
+molina-martinez_2016,"Sierra de Juarez, Mexico",2000,1988,historical,T1,221,34
+molina-martinez_2016,"Sierra de Juarez, Mexico",2000,2010,recent,T2,178,52
+molina-martinez_2016,"Sierra de Juarez, Mexico",2400,1988,historical,T1,221,15
+molina-martinez_2016,"Sierra de Juarez, Mexico",2400,2010,recent,T2,178,40
+molina-martinez_2016,"Sierra de Juarez, Mexico",3000,1988,historical,T1,221,11
+molina-martinez_2016,"Sierra de Juarez, Mexico",3000,2010,recent,T2,178,24
