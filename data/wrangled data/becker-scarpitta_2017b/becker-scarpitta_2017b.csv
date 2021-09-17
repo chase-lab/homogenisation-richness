@@ -1,0 +1,3 @@
+dataset_id,regional,local,year,period,timepoints,regional_richness,local_richness
+becker-scarpitta_2017b,"Brotonne forest, France",all_plots,1976,historical,T1,87,15.8
+becker-scarpitta_2017b,"Brotonne forest, France",all_plots,2009,recent,T2,62,9.8
