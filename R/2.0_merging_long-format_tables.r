@@ -41,7 +41,7 @@ if (!all(dt[, (check = which.max(year) == which.max(timepoints)), by = dataset_i
 
 # Saving dt ----
 data.table::fwrite(dt, 'data/communities.csv', row.names = F)
-# data.table::fwrite(dt, 'C:/Users/as80fywe/Dropbox/BioTIMEx/Local-Regional Homogenization/_data_extraction/communities.csv', row.names = F)
+# data.table::fwrite(dt, 'C:/Users/as80fywe/Dropbox/BioTIMEx/Local-Regional Homogenization/_richness/communities.csv', row.names = F)
 
 
 
@@ -100,4 +100,4 @@ if (length(setdiff(unique(dt$dataset_id), unique(meta$dataset_id))) > 0) warning
 # Saving meta ----
 data.table::fwrite(meta, 'data/metadata.csv', row.names = F)
 
-# data.table::fwrite(meta, 'C:/Users/as80fywe/Dropbox/BioTIMEx/Local-Regional Homogenization/_data_extraction/metadata.csv', row.names = F)
+# data.table::fwrite(meta, 'C:/Users/as80fywe/Dropbox/BioTIMEx/Local-Regional Homogenization/_richness/metadata.csv', row.names = F)
