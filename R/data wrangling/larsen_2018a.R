@@ -32,7 +32,7 @@ meta[, ':='(
   realm = 'freshwater',
 
   latitude =  "52°80 N",
-  longitude = " 3°450 W",
+  longitude = " 3°45 0 W",
 
   effort = 1L,
   study_type = "ecological sampling",

@@ -6,6 +6,7 @@ dataset_id <- "litza_2016"
 ddata <- data.table::data.table(
   dataset_id = dataset_id,
   regional = "Schleswig-Holstein, Germany",
+  local = "all_sites",
 
   year = c(1967L, 2015L),
   period = c("historical","recent"),
@@ -18,7 +19,7 @@ ddata <- data.table::data.table(
 
 # Metadata ----
 
-meta <- unique(ddata[, .(dataset_id, regional, year)])
+meta <- unique(ddata[, .(dataset_id, regional, local, year, period)])
 meta[, ':='(
   taxon = 'plants',
   realm = 'terrestrial',

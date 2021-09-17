@@ -6,6 +6,7 @@ dataset_id <- "hassall_2012a"
 ddata <- data.table::data.table(
   dataset_id = dataset_id,
   regional = "Cheshire, England",
+  local = "all_sites",
 
   year = c(1995L, 2006L),
   period = c("historical","recent"),
@@ -18,7 +19,7 @@ ddata <- data.table::data.table(
 
 # Metadata ----
 
-meta <- unique(ddata[, .(dataset_id, regional, year)])
+meta <- unique(ddata[, .(dataset_id, regional, local, year, period)])
 meta[, ':='(
   taxon = 'plants',
   realm = 'freshwater',

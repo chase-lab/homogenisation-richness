@@ -6,6 +6,7 @@ dataset_id <- "alignier_2018"
 ddata <- data.table::data.table(
   dataset_id = dataset_id,
   regional = "Zone Atelier Armorique, France",
+  local = "all_sites",
 
   year = c(1994L, 2015L),
   period = c("historical","recent"),
@@ -18,7 +19,7 @@ ddata <- data.table::data.table(
 
 # Metadata ----
 
-meta <- unique(ddata[, .(dataset_id, regional, year)])
+meta <- unique(ddata[, .(dataset_id, regional, local, year, period)])
 meta[, ':='(
   taxon = 'plants',
   realm = 'terrestrial',

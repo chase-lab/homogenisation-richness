@@ -19,7 +19,7 @@ ddata <- data.table::data.table(
 
 # Metadata ----
 
-meta <- unique(ddata[, .(dataset_id, regional, local, year)])
+meta <- unique(ddata[, .(dataset_id, regional, local, year, period)])
 meta[, ':='(
   taxon = 'insects',
   realm = 'terrestrial',

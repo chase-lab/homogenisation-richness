@@ -6,6 +6,7 @@ dataset_id <- "van-der-berge_2019"
 ddata <- data.table::data.table(
   dataset_id = dataset_id,
   regional = rep(c("hedgerows, Turnhout","forest, Turnhout"), each = 2L),
+  local = "all_sites",
 
   year = rep(c(1974L, 2015L), 2L),
   period = rep(c("historical","recent"), 2L),
@@ -18,7 +19,7 @@ ddata <- data.table::data.table(
 
 # Metadata ----
 
-meta <- unique(ddata[, .(dataset_id, regional, year)])
+meta <- unique(ddata[, .(dataset_id, regional, local, year, period)])
 meta[, ':='(
   taxon = 'plants',
   realm = 'terrestrial',
