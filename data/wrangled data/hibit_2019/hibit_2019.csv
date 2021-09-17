@@ -1,0 +1,11 @@
+local,year,local_richness,regional_richness,dataset_id,regional,period,timepoints
+Plot 3,1970,4.35468340507591,21,hibit_2019,Hawaii,historical,T1
+Plot 3,2017,5.99661598626728,21,hibit_2019,Hawaii,recent,T2
+Plot 4,1970,4.86080048092173,21,hibit_2019,Hawaii,historical,T1
+Plot 4,2017,9,21,hibit_2019,Hawaii,recent,T2
+Plot 5,1970,3.6305353825288,21,hibit_2019,Hawaii,historical,T1
+Plot 5,2017,4.86605715647258,21,hibit_2019,Hawaii,recent,T2
+Plot 6,1970,8.21170384078612,21,hibit_2019,Hawaii,historical,T1
+Plot 6,2017,10.2475360460969,21,hibit_2019,Hawaii,recent,T2
+Plot 7,1970,6.26237966176381,21,hibit_2019,Hawaii,historical,T1
+Plot 7,2017,7.16532617878451,21,hibit_2019,Hawaii,recent,T2

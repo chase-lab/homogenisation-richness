@@ -9,6 +9,16 @@ hassall_2012a,1995,first,1,"Cheshire, England",149,all_sites,23.5
 hassall_2012a,2006,last,2,"Cheshire, England",142,all_sites,22.3
 hassall_2012b,1995,first,1,"Cheshire, England",181,all_sites,29.5
 hassall_2012b,2006,last,2,"Cheshire, England",201,all_sites,39.8
+hibit_2019,1970,first,1,Hawaii,21,Plot 3,4.35468340507591
+hibit_2019,2017,last,2,Hawaii,21,Plot 3,5.99661598626728
+hibit_2019,1970,first,1,Hawaii,21,Plot 4,4.86080048092173
+hibit_2019,2017,last,2,Hawaii,21,Plot 4,9
+hibit_2019,1970,first,1,Hawaii,21,Plot 5,3.6305353825288
+hibit_2019,2017,last,2,Hawaii,21,Plot 5,4.86605715647258
+hibit_2019,1970,first,1,Hawaii,21,Plot 6,8.21170384078612
+hibit_2019,2017,last,2,Hawaii,21,Plot 6,10.2475360460969
+hibit_2019,1970,first,1,Hawaii,21,Plot 7,6.26237966176381
+hibit_2019,2017,last,2,Hawaii,21,Plot 7,7.16532617878451
 kolari_2021,1998,first,1,"Elimyssalo Nature Reserve, Finland",110,high pH,11.6
 kolari_2021,1998,first,1,"Elimyssalo Nature Reserve, Finland",110,high pH,11.6
 kolari_2021,2018,last,2,"Elimyssalo Nature Reserve, Finland",112,high pH,15.8
