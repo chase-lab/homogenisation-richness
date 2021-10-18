@@ -35,10 +35,10 @@ meta[, ':='(
   alpha_grain_type = "sample",
   alpha_grain_comment = "500m fixed transects",
 
-  gamma_extent = 345L,
-  gamma_extent_unit = "km2",
-  gamma_extent_type = "box",
-  gamma_extent_comment = "area of the box covering the sampling points",
+  gamma_bounding_box = 345L,
+  gamma_bounding_box_unit = "km2",
+  gamma_bounding_box_type = "box",
+  gamma_bounding_box_comment = "area of the box covering the sampling points",
 
   comment = "Extracted from table 1, DOI: 10.1111/ddi.12473. Methods: 'Eight sites spanning elevations ranging from 117 m to 3000 m were surveyed in 1988 (Luis-Martinez et al., 1991) and resurveyed in 2010–2011 using 500-m fixed transect routes (Molina-Martinez et al., 2013). Butterflies were sampled using transect walks and Van Someren-Rydon traps[...]Consistency of sampling techniques between the time periods was facilitated by A. L.-M., who was involved in both the 1988 and 2010–2011 surveys. In 1988, field sampling was carried out over a 98-day period, while the 2010–2011 field observations spanned 99 days: each site was surveyed on 18–24 occasions during May to October 2010 and March to May 2011, for a total of 219 transect events.' Effort is standardised between sites."
 )]

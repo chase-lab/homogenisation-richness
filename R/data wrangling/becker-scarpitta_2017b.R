@@ -35,10 +35,10 @@ meta[, ':='(
   alpha_grain_type = "plot",
   alpha_grain_comment = "given by the authors",
 
-  gamma_extent = 7450L,
-  gamma_extent_unit = "ha",
-  gamma_extent_type = "functional",
-  gamma_extent_comment = "area of the fieldwork region",
+  gamma_bounding_box = 7450L,
+  gamma_bounding_box_unit = "ha",
+  gamma_bounding_box_type = "functional",
+  gamma_bounding_box_comment = "area of the fieldwork region",
 
   comment = "Extracted from table 1, Doi: 10.1111/jvs.12579. Methods: 'Using identical methods for the two time periods, theabundance of all species of vascular plant (herbaceous species, ferns, shrubs and trees) and bryophytes (Bryophyta and Marchantiophyta) were recorded following a phytosociological approach (Bardat 1978). In each plot (400 m2) or subplot (see below), the abundance of all vascular plant and bryophyte species present in the plot was recorded using Braun-Blanquet’s phytosociological coefficient[...]For vascular plants, the recent surveys were conducted in 2009 during two time windows in April for spring flowering species and in June/July for summer flowering species' Effort is the total number of plots."
 )]

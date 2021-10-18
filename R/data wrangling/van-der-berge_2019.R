@@ -35,10 +35,10 @@ meta[, ':='(
   alpha_grain_type = "sample",
   alpha_grain_comment = "25 to 150 m2 for hedgerows and 60 to 150m2 for forests",
 
-  gamma_extent = 56.06,
-  gamma_extent_unit = "km2",
-  gamma_extent_type = "administrative",
-  gamma_extent_comment = "area of the municipality of Turnhout",
+  gamma_bounding_box = 56.06,
+  gamma_bounding_box_unit = "km2",
+  gamma_bounding_box_type = "administrative",
+  gamma_bounding_box_comment = "area of the municipality of Turnhout",
 
   comment = "Extracted from table 1, DOI: 10.1111/avsc.12424. Methods: 'A representative part of the vegetation was recorded via plots varying between 25–150 m2 and 60–150 m2 for hedgerows and forests, respectively.'"
 )]

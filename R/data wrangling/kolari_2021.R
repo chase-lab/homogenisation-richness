@@ -35,10 +35,10 @@ meta[, ':='(
   alpha_grain_type = "sample",
   alpha_grain_comment = "The vegetation data [...] consists of 0.25 m2 plots",
 
-  gamma_extent = 0.171,
-  gamma_extent_unit = "km2",
-  gamma_extent_type = "functional",
-  gamma_extent_comment = "area of the wetland",
+  gamma_bounding_box = 0.171,
+  gamma_bounding_box_unit = "km2",
+  gamma_bounding_box_type = "functional",
+  gamma_bounding_box_comment = "area of the wetland",
 
   comment = "Extracted from table 1, DOI: 10.1002/ece3.7592. Methods: 'The study site “Härkösuo” mire is a narrow, sloping fen, approximately 1 km long and up to 150 m wide (0.171km2).[...]The vegetation data of Tahvanainen et al. (2002) consists of 0.25m2 plots at all water sampling points (n=77), 148 plots randomly chosen within the grid squares, and 15 additional plots near the springs with 5-m interval. In summer 2018, we repeated the water sampling and vegetation survey. Original vegetation plots had coordinates of 1-m accuracy attached to the regular grid over the mire, and some wooden poles used to mark the grid points in 1998 remain in place.' Effort is the number of plots per habitat type (pH level)."
 )]

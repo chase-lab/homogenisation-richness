@@ -42,10 +42,10 @@ meta[, ':='(
   alpha_grain_type = "sample",
   alpha_grain_comment = "hand net dimension given by the authors",
 
-  gamma_extent = 300,
-  gamma_extent_unit = "km2",
-  gamma_extent_type = "catchement",
-  gamma_extent_comment = "area of the Llyn Brianne watershed",
+  gamma_bounding_box = 300,
+  gamma_bounding_box_unit = "km2",
+  gamma_bounding_box_type = "catchement",
+  gamma_bounding_box_comment = "area of the Llyn Brianne watershed",
 
   comment = "Extracted from data Larsen, S., Chase, J.M., Durance, I. and Ormerod, S.J. (2018), Lifting the veil: richness measurements fail to detect systematic biodiversity change over three decades. Ecology, 99: 1316-1326. https://doi.org/10.1002/ecy.2213. Here, composition of 10 streams of the Llyn Brianne watershed were used."
 )]

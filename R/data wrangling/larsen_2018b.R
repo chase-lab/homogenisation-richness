@@ -43,10 +43,10 @@ meta[, ':='(
   alpha_grain_type = NA,
   alpha_grain_comment = "alpha is a stream sampled in a standardised way",
 
-  gamma_extent = 20779L,
-  gamma_extent_unit = "km2",
-  gamma_extent_type = "administrative",
-  gamma_extent_comment = "area of Wales",
+  gamma_bounding_box = 20779L,
+  gamma_bounding_box_unit = "km2",
+  gamma_bounding_box_type = "administrative",
+  gamma_bounding_box_comment = "area of Wales",
 
   comment = "Extracted from data Larsen, S., Chase, J.M., Durance, I. and Ormerod, S.J. (2018), Lifting the veil: richness measurements fail to detect systematic biodiversity change over three decades. Ecology, 99: 1316-1326. https://doi.org/10.1002/ecy.2213. Here, mean richness of 56 streams throughout Wales were used for alpha and gamma is for the country."
 )]

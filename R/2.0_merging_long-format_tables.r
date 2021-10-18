@@ -71,20 +71,33 @@ meta[, alpha_grain := as.numeric(alpha_grain)
   )
 ][, alpha_grain_unit := NULL]
 
-meta[, gamma_extent := as.numeric(gamma_extent)
+meta[, gamma_bounding_box := as.numeric(gamma_bounding_box)
 ][,
-  gamma_extent := data.table::fifelse(gamma_extent_unit == 'm2',
-                          gamma_extent / 1000000,
-                          data.table::fifelse(gamma_extent_unit == 'mile2',
-                                  gamma_extent * 2.589988,
-                                  data.table::fifelse(gamma_extent_unit == 'ha',
-                                          gamma_extent / 100,
-                                          gamma_extent)
-                          )
+  gamma_bounding_box := data.table::fifelse(gamma_bounding_box_unit == 'm2',
+                                      gamma_bounding_box / 1000000,
+                                      data.table::fifelse(gamma_bounding_box_unit == 'mile2',
+                                                          gamma_bounding_box * 2.589988,
+                                                          data.table::fifelse(gamma_bounding_box_unit == 'ha',
+                                                                              gamma_bounding_box / 100,
+                                                                              gamma_bounding_box)
+                                      )
   )
-][, gamma_extent_unit := NULL]
+][, gamma_bounding_box_unit := NULL]
 
-data.table::setnames(meta, c('alpha_grain', 'gamma_extent'), c('alpha_grain_m2', 'gamma_extent_km2'))
+meta[, gamma_sum_grains := as.numeric(gamma_sum_grains)
+][,
+  gamma_sum_grains := data.table::fifelse(gamma_sum_grains_unit == 'm2',
+                                      gamma_sum_grains / 1000000,
+                                      data.table::fifelse(gamma_sum_grains_unit == 'mile2',
+                                                          gamma_sum_grains * 2.589988,
+                                                          data.table::fifelse(gamma_sum_grains_unit == 'ha',
+                                                                              gamma_sum_grains / 100,
+                                                                              gamma_sum_grains)
+                                      )
+  )
+][, gamma_sum_grains_unit := NULL]
+
+data.table::setnames(meta, c('alpha_grain', 'gamma_bounding_box', 'gamma_sum_grains'), c('alpha_grain_m2', 'gamma_bounding_box_km2','gamma_sum_grains_km2'))
 
 # Converting coordinates into a common format with parzer ----
 meta[, ":="(latitude = parzer::parse_lat(latitude), longitude = parzer::parse_lon(longitude))]
