@@ -1,0 +1,3 @@
+dataset_id,regional,local,year,period,timepoints,regional_richness,local_richness
+zeni_2020,"Sao Paulo state, Brazil",all_sites,2003,historical,T1,46,10.42
+zeni_2020,"Sao Paulo state, Brazil",all_sites,2013,recent,T2,44,9.26
