@@ -29,14 +29,14 @@ ddata[, ":="(
 
 meta <- unique(ddata[, .(dataset_id, regional, local, year)])
 meta[, ':='(
-  taxon = 'invertebrates',
-  realm = 'freshwater',
+  taxon = "Invertebrates",
+  realm = "Freshwater",
 
   latitude =  "52° 18′ 0'' N",
   longitude = "3° 36′ 0'' W",
 
   effort = 1L,
-  study_type = "ecological sampling",
+  study_type = "ecological_sampling",
 
   alpha_grain = NA,
   alpha_grain_unit = NA,

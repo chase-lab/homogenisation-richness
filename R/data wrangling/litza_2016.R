@@ -21,8 +21,8 @@ ddata <- data.table::data.table(
 
 meta <- unique(ddata[, .(dataset_id, regional, local, year, period)])
 meta[, ':='(
-  taxon = 'plants',
-  realm = 'terrestrial',
+  taxon = "Plants",
+  realm = "Terrestrial",
 
   latitude =  "54.25 N",
   longitude = "10 E",

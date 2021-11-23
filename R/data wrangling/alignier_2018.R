@@ -21,14 +21,14 @@ ddata <- data.table::data.table(
 
 meta <- unique(ddata[, .(dataset_id, regional, local, year, period)])
 meta[, ':='(
-  taxon = 'plants',
-  realm = 'terrestrial',
+  taxon = "Plants",
+  realm = "Terrestrial",
 
   latitude =  "48° 36′ N",
   longitude = "1° 32′ W",
 
   effort = 309L,
-  study_type = "ecological sampling",
+  study_type = "ecological_sampling",
 
   alpha_grain = 25L * 5L,
   alpha_grain_unit = "m2",

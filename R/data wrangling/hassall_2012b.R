@@ -21,8 +21,8 @@ ddata <- data.table::data.table(
 
 meta <- unique(ddata[, .(dataset_id, regional, local, year, period)])
 meta[, ':='(
-  taxon = 'invertebrates',
-  realm = 'freshwater',
+  taxon = "Invertebrates",
+  realm = "Freshwater",
 
   latitude =  "53.0957 N",
   longitude = "-2.7576 E",
@@ -32,7 +32,7 @@ meta[, ':='(
 
   alpha_grain = 2154L,
   alpha_grain_unit = "m2",
-  alpha_grain_type = "lake/pond",
+  alpha_grain_type = "lake_pond",
   alpha_grain_comment = "mean pond area measured on 44 of the 51 sampled ponds",
 
   gamma_bounding_box = 2343L,

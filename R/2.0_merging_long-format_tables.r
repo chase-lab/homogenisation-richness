@@ -106,8 +106,30 @@ meta[, ":="(latitude = parzer::parse_lat(latitude), longitude = parzer::parse_lo
 meta <- meta[order(dataset_id, regional, local, period, year)]
 data.table::setcolorder(meta, intersect(column_names_template_metadata, colnames(meta)))
 
+
+## checking encoding ----
+for (i in seq_along(lst_metadata)) if (any(!unlist(unique(apply(lst_metadata[[i]][, c("local","regional","comment")], 2, Encoding))) %in% c("UTF-8","unknown"))) warning(paste0("Encoding issue in ", listfiles[i]))
+
+
+# Checks ----
+## checking encoding ----
+for (i in seq_along(lst_metadata)) if (any(!unlist(unique(apply(lst_metadata[[i]][, c("local","regional","comment")], 2, Encoding))) %in% c("UTF-8","unknown"))) warning(paste0("Encoding issue in ", listfiles[i]))
+
+## checking year range homogeneity among regions ----
+if (any(meta[, length(unique(paste(range(year), collapse = "-"))), by = .(dataset_id, regional)]$V1 != 1L)) warning("all local scale sites were not sampled for the same years and timepoints has to be consistent with years")
+
+## checking effort ----
+unique(meta[effort == 'unknown' | is.na(effort), .(dataset_id, effort)])
+
+## checking alpha_grain_type ----
+if (any(!unique(meta$alpha_grain_type) %in% c("island", "plot", "administrative", "watershed", "sample", "lake_pond", "archipelago", "trap", "transect", "ecosystem", "functional"))) warning(paste("Invalid alpha_grain_type value in ", unique(meta[!alpha_grain_type %in% c("island", "plot", "administrative", "watershed", "sample", "lake_pond", "archipelago", "trap", "transect", "ecosystem", "functional"), dataset_id]), collapse = ", "))
+
 # Checking that all data sets have both community and metadata data ----
-if (length(setdiff(unique(dt$dataset_id), unique(meta$dataset_id))) > 0) warning('incomplete community or metadata tables')
+if (length(base::setdiff(unique(dt$dataset_id), unique(meta$dataset_id))) > 0) warning('Incomplete community or metadata tables')
+if (nrow(meta) != nrow(unique(meta[, .(dataset_id, regional, local, year, period)]))) warning("Redundant rows in meta")
+if (nrow(meta) != nrow(unique(dt[, .(dataset_id, regional, local, year, period)]))) warning("Discrepancies between dt and meta")
+
+
 
 
 # Saving meta ----

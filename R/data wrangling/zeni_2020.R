@@ -21,14 +21,14 @@ ddata <- data.table::data.table(
 
 meta <- unique(ddata[, .(dataset_id, regional, local, year, period)])
 meta[, ':='(
-  realm = 'freshwater',
-  taxon = 'fish',
+  realm = "Freshwater",
+  taxon = "Fish",
 
   latitude =  -20.470351,
   longitude = -50.264952,
 
   effort = 38L,
-  study_type = "ecological sampling",
+  study_type = "ecological_sampling",
 
   alpha_grain = c(144, 118.5),
   alpha_grain_unit = "m2",

@@ -49,8 +49,8 @@ meta <- unique(ddata[, .(regional, local, period, year, effort)])
 
 meta[, ':='(
    dataset_id = dataset_id,
-   realm = 'terrestrial',
-   taxon = 'plants',
+   realm = "Terrestrial",
+   taxon = "Plants",
 
    study_type = 'resurvey',
    effort = 1L,
