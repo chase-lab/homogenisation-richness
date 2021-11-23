@@ -40,6 +40,11 @@ meta[, ':='(
   gamma_bounding_box_type = "functional",
   gamma_bounding_box_comment = "Bohemian Forest - given by the authors",
 
+  gamma_sum_grains = 500L * 156L,
+  gamma_sum_grains_unit = "m2",
+  gamma_sum_grains_type = "plot",
+  gamma_sum_grains_comment = "area of sampled plots",
+
   comment = "Extracted from prach_2018. Methods: 'For the resurvey, we selected 156 plots (Figure 1) sampled between 1955 and 1980 (median sampling year was 1966 and interquartile range was 1960–1973) and with at least about 40-year-old canopy trees at the time of both surveys. The age was assessed from detailed forest management plans. To relocate these plots, we used geographic coordinates of the plots[...]We resurveyed the plots in 2009–2011 in the same part of the vegetation season according to the date when the original plot was recorded and used the same plot size of 500 m2 as in the original survey. Within each plot, we recorded all vascular plant species and estimated their percentage cover' Effort is the number of historical sites that were resurveyed."
 )]
 

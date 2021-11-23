@@ -40,6 +40,11 @@ meta[, ':='(
   gamma_bounding_box_type = "administrative",
   gamma_bounding_box_comment = "area of half the Cheshire county given by the authors",
 
+  gamma_sum_grains =  2154L * 51L,
+  gamma_sum_grains_unit = "m2",
+  gamma_sum_grains_type = "lake_pond",
+  gamma_sum_grains_comment = "sum of the areas of the 51 ponds",
+
   comment = "Extracted from DOI 10.1007/s10531-011-0223-9. Methods: 'We surveyed 51 ponds in northern England in 1995/6 and again in 2006, identifying all macrophytes (167 species) and all macroinvertebrates (221 species, excluding Diptera) to species.[...]The presence and absence of invertebrate species was recorded using standardised sampling methods.' Effort is the number of historical sites that were resurveyed."
 )]
 

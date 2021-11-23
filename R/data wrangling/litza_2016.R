@@ -40,6 +40,11 @@ meta[, ':='(
   gamma_bounding_box_type = "administrative",
   gamma_bounding_box_comment = "area of half the state of Schleswig-Holstein",
 
+  gamma_sum_grains = 700L * 51L,
+  gamma_sum_grains_unit = "m2",
+  gamma_sum_grains_type = "plot",
+  gamma_sum_grains_comment = "area of sampled plots",
+
   comment = "Extracted from http://dx.doi.org/10.1016/j.biocon.2016.12.003. Methods: 'Because the original study was carried out in summer, the sampling was done in June and July 2015 even though this might miss spring flowering plants. The plot length in the original studywas given as usually varying between 60 and 80 m of a hedgerow. For the resurvey, we applied a fixed length of 70 m. The plot width was defined by the borders of the adjacent fields in accordance with the original study, meaning that the field margins were also included in the sampling.' Effort is the number of historical sites that were resurveyed."
 )]
 

@@ -68,8 +68,13 @@ meta[, ':='(
    gamma_bounding_box_type = "island",
    gamma_bounding_box_comment = "area of the Island of Oahu Hawaii",
 
-   comment = "Extracted from Hibit et al 2019 table 4. Authors resurveyed plots in 2017 that were originally sampled in 1970 to assess native and exotic species dynamics. Despite different sampling efforts, the authors tried to reproduce original method and plot delimitations hence the resurvey categorisation. 'The sites used by Hatheway and Wirawan were located using coordinates provided in each study, [...]These coordinates did not always exactly match site descriptions, so they were compared with site pictures, slopes, elevations, and plant community compositions to obtain the best fit for where each site originally existed.[...]For consistency, our study utilized a standardized plot size of 20 × 20 m (400m2). These plots were square, rather than the circular plots which had been utilized by Wirawan (1974). Due to variability in plot sizes in 1970, plots 4–7 were larger in 1970 than 2017 (Table 1).' Regional is the whole island. Local is a semi-permanent sampling site. Varying effort has been standardised by excluding Plots 1 and 2 and rarefying the communities to the smallest observed sampled abundance (Nmin = 105)."
-)]
+   gamma_sum_grains_unit = "m2",
+   gamma_sum_grains_type = "sample",
+   gamma_sum_grains_comment = "sum of sampled areas per year",
+
+   comment = "Extracted from Hibit et al 2019 table 4. Authors resurveyed plots in 2017 that were originally sampled in 1970 to assess native and exotic species dynamics. Despite different sampling efforts, the authors tried to reproduce original method and plot delimitations hence the resurvey categorisation. 'The sites used by Hatheway and Wirawan were located using coordinates provided in each study, [...]These coordinates did not always exactly match site descriptions, so they were compared with site pictures, slopes, elevations, and plant community compositions to obtain the best fit for where each site originally existed.[...]For consistency, our study utilized a standardized plot size of 20 × 20 m (400m2). These plots were square, rather than the circular plots which had been utilized by Wirawan (1974). Due to variability in plot sizes in 1970, plots 4–7 were larger in 1970 than 2017 (Table 1).' Regional is the whole island. Local is a semi-permanent sampling site. ",
+   comment_standardisation = "Varying effort has been standardised by excluding Plots 1 and 2 and rarefying the communities to the smallest observed sampled abundance (Nmin = 105)."
+)][, gamma_sum_grains :=  sum(alpha_grain), by = .(local, year)]
 
 ddata[, effort := NULL]
 

@@ -30,7 +30,7 @@ meta[, ':='(
   effort = 1L,
   study_type = "resurvey",
 
-  alpha_grain = 2500,
+  alpha_grain = 2500L,
   alpha_grain_unit = "m2",
   alpha_grain_type = "sample",
   alpha_grain_comment = "500m fixed transects",
