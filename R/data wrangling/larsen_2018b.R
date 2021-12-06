@@ -35,7 +35,7 @@ meta[, ':='(
   latitude =  "52° 18′ 0'' N",
   longitude = "3° 36′ 0'' W",
 
-  effort = 1L,
+  effort = 56L,
   study_type = "ecological_sampling",
 
   alpha_grain = NA,

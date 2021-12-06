@@ -34,7 +34,7 @@ meta[, ':='(
   latitude =  "52°80 N",
   longitude = " 3°45 0 W",
 
-  effort = 1L,
+  effort = 10L,
   study_type = "ecological_sampling",
 
   alpha_grain = 23 * 25.5,
@@ -42,7 +42,12 @@ meta[, ':='(
   alpha_grain_type = "sample",
   alpha_grain_comment = "hand net dimension given by the authors",
 
-  gamma_bounding_box = 300,
+  gamma_sum_grains = .23 * .255 * 10,
+  gamma_sum_grains_unit = "m2",
+  gamma_sum_grains_type = "sample",
+  gamma_sum_grains_comment = "summed area of samples",
+
+  gamma_bounding_box = 300L,
   gamma_bounding_box_unit = "km2",
   gamma_bounding_box_type = "catchement",
   gamma_bounding_box_comment = "area of the Llyn Brianne watershed",
