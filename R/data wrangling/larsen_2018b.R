@@ -43,6 +43,11 @@ meta[, ':='(
   alpha_grain_type = NA,
   alpha_grain_comment = "alpha is a stream sampled in a standardised way",
 
+  gamma_sum_grains = NA,
+  gamma_sum_grains_unit = NA,
+  gamma_sum_grains_type = NA,
+  gamma_sum_grains_comment = NA,
+
   gamma_bounding_box = 20779L,
   gamma_bounding_box_unit = "km2",
   gamma_bounding_box_type = "administrative",

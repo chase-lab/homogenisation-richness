@@ -41,7 +41,7 @@ if (!all(dt[, (check = which.max(year) == which.max(timepoints)), by = dataset_i
 
 # Saving dt ----
 data.table::fwrite(dt, 'data/communities.csv', row.names = F)
-# data.table::fwrite(dt, 'C:/Users/as80fywe/Dropbox/BioTIMEx/Local-Regional Homogenization/_richness/communities.csv', row.names = F)
+data.table::fwrite(dt, 'C:/Users/as80fywe/Dropbox/BioTIMEx/Local-Regional Homogenization/_richness/communities.csv', row.names = F)
 
 
 
@@ -131,8 +131,8 @@ if (any(!na.omit(unique(meta$gamma_bounding_box_type)) %in% c("administrative", 
 
 ## checking units ----
 if (any( !na.omit(unique(meta$alpha_grain_unit)) %in%  c("acres", "ha", "km2", "m2","cm2", "mile2"))) warning("Non standard unit in alpha")
-if (any( !na.omit(unique(meta$gamma_sum_grains_unit)) %in%  c("acres", "ha", "km2", "m2", "mile2"))) warning("Non standard unit in gamma_sum_grains")
-if (any( !na.omit(unique(meta$gamma_bounding_box_unit)) %in%  c("acres", "ha", "km2", "m2", "mile2"))) warning("Non standard unit in gamma_bounding_box")
+if (any( !na.omit(unique(meta$gamma_sum_grains_unit)) %in%  c("ha", "km2", "m2", "mile2"))) warning("Non standard unit in gamma_sum_grains")
+if (any( !na.omit(unique(meta$gamma_bounding_box_unit)) %in%  c("ha", "km2", "m2", "mile2"))) warning("Non standard unit in gamma_bounding_box")
 
 # Checking that all data sets have both community and metadata data ----
 if (length(base::setdiff(unique(dt$dataset_id), unique(meta$dataset_id))) > 0) warning('Incomplete community or metadata tables')
@@ -144,5 +144,4 @@ if (nrow(meta) != nrow(unique(dt[, .(dataset_id, regional, local, year, period)]
 
 # Saving meta ----
 data.table::fwrite(meta, 'data/metadata.csv', row.names = F)
-
-# data.table::fwrite(meta, 'C:/Users/as80fywe/Dropbox/BioTIMEx/Local-Regional Homogenization/_richness/metadata.csv', row.names = F)
+data.table::fwrite(meta, 'C:/Users/as80fywe/Dropbox/BioTIMEx/Local-Regional Homogenization/_richness/metadata.csv', row.names = F)
