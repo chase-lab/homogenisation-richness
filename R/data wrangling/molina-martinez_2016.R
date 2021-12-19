@@ -30,6 +30,10 @@ meta[, ':='(
   effort = 18L,
   study_type = "resurvey",
 
+  data_pooled_by_authors = TRUE,
+  data_pooled_by_authors_comment = "Sites were sampled repeatedly in 2010 and 2011. Effort is standardised between sites",
+  sampling_years = c("1988", "2010-2011")[match(period, c("historical","recent"))],
+
   alpha_grain = 2500L,
   alpha_grain_unit = "m2",
   alpha_grain_type = "sample",

@@ -30,6 +30,9 @@ meta[, ':='(
   effort = rep(c(54L, 20L), each = 2L),
   study_type = "ecological_sampling",
 
+  data_pooled_by_authors = FALSE,
+
+
   alpha_grain = rep(c(25L, 60L), each = 2L),
   alpha_grain_unit = "m2",
   alpha_grain_type = "sample",

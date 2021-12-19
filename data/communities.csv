@@ -1,11 +1,11 @@
 dataset_id,year,period,timepoints,regional,regional_richness,local,local_richness
 alignier_2018,1994,first,1,"Zone Atelier Armorique, France",308,all_sites,28.31
 alignier_2018,2015,last,2,"Zone Atelier Armorique, France",284,all_sites,31.89
-becker-scarpitta_2017a,1976,first,1,"Brotonne forest, France",18,all_subplots,3.3
+becker-scarpitta_2017a,1977,first,1,"Brotonne forest, France",18,all_subplots,3.3
 becker-scarpitta_2017a,2012,last,2,"Brotonne forest, France",53,all_subplots,6.8
 becker-scarpitta_2017b,1976,first,1,"Brotonne forest, France",87,all_plots,15.8
 becker-scarpitta_2017b,2009,last,2,"Brotonne forest, France",62,all_plots,9.8
-hassall_2012a,1995,first,1,"Cheshire, England",149,all_sites,23.5
+hassall_2012a,1996,first,1,"Cheshire, England",149,all_sites,23.5
 hassall_2012a,2006,last,2,"Cheshire, England",142,all_sites,22.3
 hassall_2012b,1995,first,1,"Cheshire, England",181,all_sites,29.5
 hassall_2012b,2006,last,2,"Cheshire, England",201,all_sites,39.8

@@ -55,6 +55,8 @@ meta[, ':='(
    study_type = 'resurvey',
    effort = 1L,
 
+   data_pooled_by_authors = FALSE,
+
    latitude = c('21°34`25.62"N', '21°34`18.39"N', '21°34`19.56"N', '21°32`58.61"N', '21°34`12.62"N', '21°31`34.61"N', '21°31`25.61"N')[match(local, paste('Plot', 1:7))],
    longitude = c('158°12`30.07"W','158°12`37.41"W', '158°12`39.10"W','158°10`48.09"W','158°12`4.07"W','158° 9`19.09"W','158° 9`10.09"W')[match(local, paste('Plot', 1:7))],
 

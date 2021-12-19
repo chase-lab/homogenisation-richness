@@ -30,6 +30,8 @@ meta[, ':='(
   effort = 51L,
   study_type = "resurvey",
 
+  data_pooled_by_authors = FALSE,
+
   alpha_grain = 700L,
   alpha_grain_unit = "m2",
   alpha_grain_type = "sample",

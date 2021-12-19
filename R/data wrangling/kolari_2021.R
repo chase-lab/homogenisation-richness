@@ -30,6 +30,8 @@ meta[, ':='(
   effort = rep(c(53L, 52L, 45L, 53L), each = 2L),
   study_type = "resurvey",
 
+  data_pooled_by_authors = FALSE,
+
   alpha_grain = 0.25,
   alpha_grain_unit = "m2",
   alpha_grain_type = "sample",

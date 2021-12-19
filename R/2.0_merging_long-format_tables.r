@@ -24,9 +24,9 @@ meta <- data.table::rbindlist(lst_metadata, fill = TRUE)
 ## Counting the study cases ----
 dt[,.(nsites = length(unique(local))), by = dataset_id][order(nsites, decreasing = T)]
 
-# Ordering ----
+# Ordering dt ----
 data.table::setcolorder(dt, intersect(column_names_template, colnames(dt)))
-dt <- dt[order(dataset_id, regional, local, period, year)]
+data.table::setorder(dt, dataset_id, regional, local, period, year)
 
 # Temporary fix of timepoints ----
 dt[, timepoints := as.integer(gsub('T', '', timepoints))]
@@ -41,7 +41,7 @@ if (!all(dt[, (check = which.max(year) == which.max(timepoints)), by = dataset_i
 
 # Saving dt ----
 data.table::fwrite(dt, 'data/communities.csv', row.names = F)
-data.table::fwrite(dt, 'C:/Users/as80fywe/Dropbox/BioTIMEx/Local-Regional Homogenization/_richness/communities.csv', row.names = F)
+data.table::fwrite(dt, 'C:/Users/as80fywe/Dropbox (iDiv)/BioTIMEx/Local-Regional Homogenization/_richness/communities.csv', row.names = F)
 
 
 
@@ -103,20 +103,21 @@ data.table::setnames(meta, c('alpha_grain', 'gamma_bounding_box', 'gamma_sum_gra
 meta[, ":="(latitude = parzer::parse_lat(latitude), longitude = parzer::parse_lon(longitude))]
 
 # Ordering metadata ----
-meta <- meta[order(dataset_id, regional, local, period, year)]
+data.table::setorder(meta, dataset_id, regional, local, period, year)
 data.table::setcolorder(meta, intersect(column_names_template_metadata, colnames(meta)))
 
-
-## checking encoding ----
-for (i in seq_along(lst_metadata)) if (any(!unlist(unique(apply(lst_metadata[[i]][, c("local","regional","comment")], 2, Encoding))) %in% c("UTF-8","unknown"))) warning(paste0("Encoding issue in ", listfiles[i]))
-
-
 # Checks ----
+
 ## checking encoding ----
 for (i in seq_along(lst_metadata)) if (any(!unlist(unique(apply(lst_metadata[[i]][, c("local","regional","comment")], 2, Encoding))) %in% c("UTF-8","unknown"))) warning(paste0("Encoding issue in ", listfiles[i]))
 
 ## checking year range homogeneity among regions ----
 if (any(meta[, length(unique(paste(range(year), collapse = "-"))), by = .(dataset_id, regional)]$V1 != 1L)) warning("all local scale sites were not sampled for the same years and timepoints has to be consistent with years")
+
+## checking data_pooled_by_authors ----
+meta[is.na(data_pooled_by_authors), data_pooled_by_authors := FALSE]
+if (any(meta[(data_pooled_by_authors), is.na(sampling_years)])) warning("Missing sampling_years values")
+if (any(meta[(data_pooled_by_authors), is.na(data_pooled_by_authors_comment)])) warning(paste("Missing data_pooled_by_authors_comment values in", meta[(data_pooled_by_authors) & is.na(data_pooled_by_authors_comment), paste(unique(dataset_id), collapse = ", ")]))
 
 ## checking effort ----
 unique(meta[effort == 'unknown' | is.na(effort), .(dataset_id, effort)])
@@ -144,4 +145,5 @@ if (nrow(meta) != nrow(unique(dt[, .(dataset_id, regional, local, year, period)]
 
 # Saving meta ----
 data.table::fwrite(meta, 'data/metadata.csv', row.names = F)
-data.table::fwrite(meta, 'C:/Users/as80fywe/Dropbox/BioTIMEx/Local-Regional Homogenization/_richness/metadata.csv', row.names = F)
+data.table::fwrite(meta, 'C:/Users/as80fywe/Dropbox (iDiv)/BioTIMEx/Local-Regional Homogenization/_richness/metadata.csv', row.names = F)
+

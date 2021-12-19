@@ -30,6 +30,10 @@ meta[, ':='(
   effort = 74L,
   study_type = "resurvey",
 
+  data_pooled_by_authors = TRUE,
+  data_pooled_by_authors_comment = "Original survey was spread over 1975, 1976 and 1977. Resurvey was in 2012.",
+  sampling_years = c("1975-1977", "2009"),
+
   alpha_grain = 400L,
   alpha_grain_unit = "m2",
   alpha_grain_type = "plot",

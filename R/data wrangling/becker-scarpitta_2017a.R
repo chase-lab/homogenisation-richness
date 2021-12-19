@@ -8,7 +8,7 @@ ddata <- data.table::data.table(
   regional = "Brotonne forest, France",
   local = "all_subplots",
 
-  year = c(1976L, 2012L),
+  year = c(1977L, 2012L),
   period = c("historical","recent"),
   timepoints = c("T1","T2"),
 
@@ -29,6 +29,11 @@ meta[, ':='(
 
   effort = 91L,
   study_type = "resurvey",
+
+  data_pooled_by_authors = TRUE,
+  data_pooled_by_authors_comment = "Original survey was spread over 1975, 1976 and 1977. Resurvey was in 2012.",
+  sampling_years = c("1975-1977", "2012"),
+
 
   alpha_grain = 1L,
   alpha_grain_unit = "m2",

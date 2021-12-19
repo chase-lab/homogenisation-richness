@@ -30,6 +30,10 @@ meta[, ':='(
   effort = 156L,
   study_type = "resurvey",
 
+  data_pooled_by_authors = TRUE,
+  data_pooled_by_authors_comment = "Plots were sampled only once per period 'For the resurvey, we selected 156 plots (Figure 1) sampled between 1955 and 1980 (median sampling year was 1966 and interquartile range was 1960–1973)[...]We resurveyed the plots in 2009–2011' ",
+  sampling_years = c("1955-1980", "2009-2011"),
+
   alpha_grain = 500L,
   alpha_grain_unit = "m2",
   alpha_grain_type = "sample",

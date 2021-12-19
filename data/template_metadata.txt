@@ -9,6 +9,9 @@ longitude	TRUE	decimal degree, WGS84
 effort	FALSE	NA
 checklist	FALSE	NA
 study_type	TRUE	one of "resurvey", "checklist" or "ecological sampling". A checklist has no well defined effort, it can be specialists lising all encountered species over an area or researchers aggregating species composition from the literature, museum collections, etc. RESURVEY: typically two samplings separated by a long, 20+ years, stretch of time and a great deal of effort is put in matching very precisely historical plots or transects. ECOLOGICAL SAMPLING: these studies generally involve more samplings than resurveys: 10 samplings, 1 every few years.
+data_pooled_by_authors	TRUE	TRUE if the data provided by the authors was already pooled covering several years: several samples made over several years pooled together
+data_pooled_by_authors_comment	FALSE	if there was pooling by the original authors: free text describing how the authors pooled data
+sampling_years	FALSE	if there was pooling by the original authors: years sampled for each period. "1997, 1999" means 1997 and 1999, "1997-1999" means 1997, 1998 and 1999
 alpha_grain	TRUE	NA
 alpha_grain_unit	TRUE	NA
 alpha_grain_type	TRUE	NA

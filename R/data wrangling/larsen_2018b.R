@@ -38,6 +38,8 @@ meta[, ':='(
   effort = 56L,
   study_type = "ecological_sampling",
 
+  data_pooled_by_authors = FALSE,
+
   alpha_grain = NA,
   alpha_grain_unit = NA,
   alpha_grain_type = NA,

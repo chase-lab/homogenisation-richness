@@ -8,7 +8,7 @@ ddata <- data.table::data.table(
   regional = "Cheshire, England",
   local = "all_sites",
 
-  year = c(1995L, 2006L),
+  year = c(1996L, 2006L),
   period = c("historical","recent"),
   timepoints = c("T1","T2"),
 
@@ -29,6 +29,10 @@ meta[, ':='(
 
   effort = 51L,
   study_type = "resurvey",
+
+  data_pooled_by_authors = TRUE,
+  data_pooled_by_authors_comment = "Original survey was spread over 1995 and 1996. Resurvey was in 2006",
+  sampling_years = c("1995-1996", "2006"),
 
   alpha_grain = 2154L,
   alpha_grain_unit = "m2",
