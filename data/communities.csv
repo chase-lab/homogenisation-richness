@@ -1,309 +1,309 @@
-dataset_id,year,period,timepoints,regional,regional_richness,local,local_richness
-alignier_2018,1994,first,1,"Zone Atelier Armorique, France",308,all_sites,28.31
-alignier_2018,2015,last,2,"Zone Atelier Armorique, France",284,all_sites,31.89
-becker-scarpitta_2017a,1977,first,1,"Brotonne forest, France",18,all_subplots,3.3
-becker-scarpitta_2017a,2012,last,2,"Brotonne forest, France",53,all_subplots,6.8
-becker-scarpitta_2017b,1976,first,1,"Brotonne forest, France",87,all_plots,15.8
-becker-scarpitta_2017b,2009,last,2,"Brotonne forest, France",62,all_plots,9.8
-hassall_2012a,1996,first,1,"Cheshire, England",149,all_sites,23.5
-hassall_2012a,2006,last,2,"Cheshire, England",142,all_sites,22.3
-hassall_2012b,1995,first,1,"Cheshire, England",181,all_sites,29.5
-hassall_2012b,2006,last,2,"Cheshire, England",201,all_sites,39.8
-hibit_2019,1970,first,1,Hawaii,21,Plot 3,4.35468340507591
-hibit_2019,2017,last,2,Hawaii,21,Plot 3,5.99661598626728
-hibit_2019,1970,first,1,Hawaii,21,Plot 4,4.86080048092173
-hibit_2019,2017,last,2,Hawaii,21,Plot 4,9
-hibit_2019,1970,first,1,Hawaii,21,Plot 5,3.6305353825288
-hibit_2019,2017,last,2,Hawaii,21,Plot 5,4.86605715647258
-hibit_2019,1970,first,1,Hawaii,21,Plot 6,8.21170384078612
-hibit_2019,2017,last,2,Hawaii,21,Plot 6,10.2475360460969
-hibit_2019,1970,first,1,Hawaii,21,Plot 7,6.26237966176381
-hibit_2019,2017,last,2,Hawaii,21,Plot 7,7.16532617878451
-kolari_2021,1998,first,1,"Elimyssalo Nature Reserve, Finland",110,high pH,11.6
-kolari_2021,1998,first,1,"Elimyssalo Nature Reserve, Finland",110,high pH,11.6
-kolari_2021,2018,last,2,"Elimyssalo Nature Reserve, Finland",112,high pH,15.8
-kolari_2021,2018,last,2,"Elimyssalo Nature Reserve, Finland",112,high pH,15.8
-kolari_2021,1998,first,1,"Elimyssalo Nature Reserve, Finland",110,intermediate pH,11.8
-kolari_2021,1998,first,1,"Elimyssalo Nature Reserve, Finland",110,intermediate pH,11.8
-kolari_2021,2018,last,2,"Elimyssalo Nature Reserve, Finland",112,intermediate pH,13.2
-kolari_2021,2018,last,2,"Elimyssalo Nature Reserve, Finland",112,intermediate pH,13.2
-kolari_2021,1998,first,1,"Elimyssalo Nature Reserve, Finland",110,low pH,9.6
-kolari_2021,1998,first,1,"Elimyssalo Nature Reserve, Finland",110,low pH,9.6
-kolari_2021,2018,last,2,"Elimyssalo Nature Reserve, Finland",112,low pH,11.7
-kolari_2021,2018,last,2,"Elimyssalo Nature Reserve, Finland",112,low pH,11.7
-kolari_2021,1998,first,1,"Elimyssalo Nature Reserve, Finland",110,very low pH,10.1
-kolari_2021,1998,first,1,"Elimyssalo Nature Reserve, Finland",110,very low pH,10.1
-kolari_2021,2018,last,2,"Elimyssalo Nature Reserve, Finland",112,very low pH,11.5
-kolari_2021,2018,last,2,"Elimyssalo Nature Reserve, Finland",112,very low pH,11.5
-larsen_2018a,1985,first,1,Llyn Brianne,56,CI1,23
-larsen_2018a,1986,intermediate,2,Llyn Brianne,50,CI1,25
-larsen_2018a,1987,intermediate,3,Llyn Brianne,43,CI1,20
-larsen_2018a,1988,intermediate,4,Llyn Brianne,46,CI1,22
-larsen_2018a,1989,intermediate,5,Llyn Brianne,41,CI1,27
-larsen_2018a,1990,intermediate,6,Llyn Brianne,53,CI1,23
-larsen_2018a,1992,intermediate,7,Llyn Brianne,57,CI1,16
-larsen_2018a,1993,intermediate,8,Llyn Brianne,36,CI1,18
-larsen_2018a,1995,intermediate,9,Llyn Brianne,52,CI1,23
-larsen_2018a,1996,intermediate,10,Llyn Brianne,52,CI1,17
-larsen_2018a,1997,intermediate,11,Llyn Brianne,53,CI1,18
-larsen_2018a,1998,intermediate,12,Llyn Brianne,55,CI1,18
-larsen_2018a,1999,intermediate,13,Llyn Brianne,53,CI1,21
-larsen_2018a,2000,intermediate,14,Llyn Brianne,58,CI1,21
-larsen_2018a,2001,intermediate,15,Llyn Brianne,54,CI1,16
-larsen_2018a,2002,intermediate,16,Llyn Brianne,46,CI1,17
-larsen_2018a,2003,intermediate,17,Llyn Brianne,43,CI1,19
-larsen_2018a,2004,intermediate,18,Llyn Brianne,41,CI1,20
-larsen_2018a,2005,intermediate,19,Llyn Brianne,46,CI1,22
-larsen_2018a,2006,intermediate,20,Llyn Brianne,44,CI1,19
-larsen_2018a,2007,intermediate,21,Llyn Brianne,51,CI1,23
-larsen_2018a,2010,intermediate,22,Llyn Brianne,48,CI1,29
-larsen_2018a,2012,intermediate,23,Llyn Brianne,57,CI1,20
-larsen_2018a,2013,last,24,Llyn Brianne,48,CI1,29
-larsen_2018a,1985,first,1,Llyn Brianne,56,CI2,18
-larsen_2018a,1986,intermediate,2,Llyn Brianne,50,CI2,15
-larsen_2018a,1987,intermediate,3,Llyn Brianne,43,CI2,18
-larsen_2018a,1988,intermediate,4,Llyn Brianne,46,CI2,20
-larsen_2018a,1989,intermediate,5,Llyn Brianne,41,CI2,22
-larsen_2018a,1990,intermediate,6,Llyn Brianne,53,CI2,21
-larsen_2018a,1992,intermediate,7,Llyn Brianne,57,CI2,16
-larsen_2018a,1993,intermediate,8,Llyn Brianne,36,CI2,12
-larsen_2018a,1995,intermediate,9,Llyn Brianne,52,CI2,22
-larsen_2018a,1996,intermediate,10,Llyn Brianne,52,CI2,15
-larsen_2018a,1997,intermediate,11,Llyn Brianne,53,CI2,24
-larsen_2018a,1998,intermediate,12,Llyn Brianne,55,CI2,17
-larsen_2018a,1999,intermediate,13,Llyn Brianne,53,CI2,15
-larsen_2018a,2000,intermediate,14,Llyn Brianne,58,CI2,17
-larsen_2018a,2001,intermediate,15,Llyn Brianne,54,CI2,14
-larsen_2018a,2002,intermediate,16,Llyn Brianne,46,CI2,14
-larsen_2018a,2003,intermediate,17,Llyn Brianne,43,CI2,13
-larsen_2018a,2004,intermediate,18,Llyn Brianne,41,CI2,14
-larsen_2018a,2005,intermediate,19,Llyn Brianne,46,CI2,14
-larsen_2018a,2006,intermediate,20,Llyn Brianne,44,CI2,13
-larsen_2018a,2007,intermediate,21,Llyn Brianne,51,CI2,12
-larsen_2018a,2010,intermediate,22,Llyn Brianne,48,CI2,12
-larsen_2018a,2012,intermediate,23,Llyn Brianne,57,CI2,18
-larsen_2018a,2013,last,24,Llyn Brianne,48,CI2,14
-larsen_2018a,1985,first,1,Llyn Brianne,56,CI4,19
-larsen_2018a,1986,intermediate,2,Llyn Brianne,50,CI4,17
-larsen_2018a,1987,intermediate,3,Llyn Brianne,43,CI4,19
-larsen_2018a,1988,intermediate,4,Llyn Brianne,46,CI4,16
-larsen_2018a,1989,intermediate,5,Llyn Brianne,41,CI4,18
-larsen_2018a,1990,intermediate,6,Llyn Brianne,53,CI4,26
-larsen_2018a,1992,intermediate,7,Llyn Brianne,57,CI4,16
-larsen_2018a,1993,intermediate,8,Llyn Brianne,36,CI4,9
-larsen_2018a,1995,intermediate,9,Llyn Brianne,52,CI4,10
-larsen_2018a,1996,intermediate,10,Llyn Brianne,52,CI4,20
-larsen_2018a,1997,intermediate,11,Llyn Brianne,53,CI4,23
-larsen_2018a,1998,intermediate,12,Llyn Brianne,55,CI4,16
-larsen_2018a,1999,intermediate,13,Llyn Brianne,53,CI4,17
-larsen_2018a,2000,intermediate,14,Llyn Brianne,58,CI4,18
-larsen_2018a,2001,intermediate,15,Llyn Brianne,54,CI4,13
-larsen_2018a,2002,intermediate,16,Llyn Brianne,46,CI4,17
-larsen_2018a,2003,intermediate,17,Llyn Brianne,43,CI4,19
-larsen_2018a,2004,intermediate,18,Llyn Brianne,41,CI4,16
-larsen_2018a,2005,intermediate,19,Llyn Brianne,46,CI4,16
-larsen_2018a,2006,intermediate,20,Llyn Brianne,44,CI4,9
-larsen_2018a,2007,intermediate,21,Llyn Brianne,51,CI4,17
-larsen_2018a,2010,intermediate,22,Llyn Brianne,48,CI4,15
-larsen_2018a,2012,intermediate,23,Llyn Brianne,57,CI4,26
-larsen_2018a,2013,last,24,Llyn Brianne,48,CI4,15
-larsen_2018a,1985,first,1,Llyn Brianne,56,CI5,22
-larsen_2018a,1986,intermediate,2,Llyn Brianne,50,CI5,15
-larsen_2018a,1987,intermediate,3,Llyn Brianne,43,CI5,22
-larsen_2018a,1988,intermediate,4,Llyn Brianne,46,CI5,27
-larsen_2018a,1989,intermediate,5,Llyn Brianne,41,CI5,22
-larsen_2018a,1990,intermediate,6,Llyn Brianne,53,CI5,19
-larsen_2018a,1992,intermediate,7,Llyn Brianne,57,CI5,19
-larsen_2018a,1993,intermediate,8,Llyn Brianne,36,CI5,7
-larsen_2018a,1995,intermediate,9,Llyn Brianne,52,CI5,26
-larsen_2018a,1996,intermediate,10,Llyn Brianne,52,CI5,22
-larsen_2018a,1997,intermediate,11,Llyn Brianne,53,CI5,24
-larsen_2018a,1998,intermediate,12,Llyn Brianne,55,CI5,23
-larsen_2018a,1999,intermediate,13,Llyn Brianne,53,CI5,19
-larsen_2018a,2000,intermediate,14,Llyn Brianne,58,CI5,24
-larsen_2018a,2001,intermediate,15,Llyn Brianne,54,CI5,15
-larsen_2018a,2002,intermediate,16,Llyn Brianne,46,CI5,17
-larsen_2018a,2003,intermediate,17,Llyn Brianne,43,CI5,12
-larsen_2018a,2004,intermediate,18,Llyn Brianne,41,CI5,8
-larsen_2018a,2005,intermediate,19,Llyn Brianne,46,CI5,18
-larsen_2018a,2006,intermediate,20,Llyn Brianne,44,CI5,18
-larsen_2018a,2007,intermediate,21,Llyn Brianne,51,CI5,20
-larsen_2018a,2010,intermediate,22,Llyn Brianne,48,CI5,21
-larsen_2018a,2012,intermediate,23,Llyn Brianne,57,CI5,21
-larsen_2018a,2013,last,24,Llyn Brianne,48,CI5,27
-larsen_2018a,1985,first,1,Llyn Brianne,56,LI1,18
-larsen_2018a,1986,intermediate,2,Llyn Brianne,50,LI1,22
-larsen_2018a,1987,intermediate,3,Llyn Brianne,43,LI1,19
-larsen_2018a,1988,intermediate,4,Llyn Brianne,46,LI1,17
-larsen_2018a,1989,intermediate,5,Llyn Brianne,41,LI1,18
-larsen_2018a,1990,intermediate,6,Llyn Brianne,53,LI1,17
-larsen_2018a,1992,intermediate,7,Llyn Brianne,57,LI1,20
-larsen_2018a,1993,intermediate,8,Llyn Brianne,36,LI1,13
-larsen_2018a,1995,intermediate,9,Llyn Brianne,52,LI1,15
-larsen_2018a,1996,intermediate,10,Llyn Brianne,52,LI1,23
-larsen_2018a,1997,intermediate,11,Llyn Brianne,53,LI1,18
-larsen_2018a,1998,intermediate,12,Llyn Brianne,55,LI1,13
-larsen_2018a,1999,intermediate,13,Llyn Brianne,53,LI1,17
-larsen_2018a,2000,intermediate,14,Llyn Brianne,58,LI1,21
-larsen_2018a,2001,intermediate,15,Llyn Brianne,54,LI1,14
-larsen_2018a,2002,intermediate,16,Llyn Brianne,46,LI1,17
-larsen_2018a,2003,intermediate,17,Llyn Brianne,43,LI1,13
-larsen_2018a,2004,intermediate,18,Llyn Brianne,41,LI1,9
-larsen_2018a,2005,intermediate,19,Llyn Brianne,46,LI1,7
-larsen_2018a,2006,intermediate,20,Llyn Brianne,44,LI1,14
-larsen_2018a,2007,intermediate,21,Llyn Brianne,51,LI1,14
-larsen_2018a,2010,intermediate,22,Llyn Brianne,48,LI1,15
-larsen_2018a,2012,intermediate,23,Llyn Brianne,57,LI1,14
-larsen_2018a,2013,last,24,Llyn Brianne,48,LI1,15
-larsen_2018a,1985,first,1,Llyn Brianne,56,LI2,15
-larsen_2018a,1986,intermediate,2,Llyn Brianne,50,LI2,17
-larsen_2018a,1987,intermediate,3,Llyn Brianne,43,LI2,16
-larsen_2018a,1988,intermediate,4,Llyn Brianne,46,LI2,17
-larsen_2018a,1989,intermediate,5,Llyn Brianne,41,LI2,15
-larsen_2018a,1990,intermediate,6,Llyn Brianne,53,LI2,17
-larsen_2018a,1992,intermediate,7,Llyn Brianne,57,LI2,21
-larsen_2018a,1993,intermediate,8,Llyn Brianne,36,LI2,8
-larsen_2018a,1995,intermediate,9,Llyn Brianne,52,LI2,16
-larsen_2018a,1996,intermediate,10,Llyn Brianne,52,LI2,15
-larsen_2018a,1997,intermediate,11,Llyn Brianne,53,LI2,18
-larsen_2018a,1998,intermediate,12,Llyn Brianne,55,LI2,16
-larsen_2018a,1999,intermediate,13,Llyn Brianne,53,LI2,14
-larsen_2018a,2000,intermediate,14,Llyn Brianne,58,LI2,18
-larsen_2018a,2001,intermediate,15,Llyn Brianne,54,LI2,9
-larsen_2018a,2002,intermediate,16,Llyn Brianne,46,LI2,18
-larsen_2018a,2003,intermediate,17,Llyn Brianne,43,LI2,13
-larsen_2018a,2004,intermediate,18,Llyn Brianne,41,LI2,8
-larsen_2018a,2005,intermediate,19,Llyn Brianne,46,LI2,12
-larsen_2018a,2006,intermediate,20,Llyn Brianne,44,LI2,14
-larsen_2018a,2007,intermediate,21,Llyn Brianne,51,LI2,13
-larsen_2018a,2010,intermediate,22,Llyn Brianne,48,LI2,15
-larsen_2018a,2012,intermediate,23,Llyn Brianne,57,LI2,17
-larsen_2018a,2013,last,24,Llyn Brianne,48,LI2,12
-larsen_2018a,1985,first,1,Llyn Brianne,56,LI4,15
-larsen_2018a,1986,intermediate,2,Llyn Brianne,50,LI4,17
-larsen_2018a,1987,intermediate,3,Llyn Brianne,43,LI4,19
-larsen_2018a,1988,intermediate,4,Llyn Brianne,46,LI4,21
-larsen_2018a,1989,intermediate,5,Llyn Brianne,41,LI4,19
-larsen_2018a,1990,intermediate,6,Llyn Brianne,53,LI4,19
-larsen_2018a,1992,intermediate,7,Llyn Brianne,57,LI4,18
-larsen_2018a,1993,intermediate,8,Llyn Brianne,36,LI4,10
-larsen_2018a,1995,intermediate,9,Llyn Brianne,52,LI4,14
-larsen_2018a,1996,intermediate,10,Llyn Brianne,52,LI4,20
-larsen_2018a,1997,intermediate,11,Llyn Brianne,53,LI4,13
-larsen_2018a,1998,intermediate,12,Llyn Brianne,55,LI4,19
-larsen_2018a,1999,intermediate,13,Llyn Brianne,53,LI4,20
-larsen_2018a,2000,intermediate,14,Llyn Brianne,58,LI4,23
-larsen_2018a,2001,intermediate,15,Llyn Brianne,54,LI4,15
-larsen_2018a,2002,intermediate,16,Llyn Brianne,46,LI4,15
-larsen_2018a,2003,intermediate,17,Llyn Brianne,43,LI4,18
-larsen_2018a,2004,intermediate,18,Llyn Brianne,41,LI4,18
-larsen_2018a,2005,intermediate,19,Llyn Brianne,46,LI4,18
-larsen_2018a,2006,intermediate,20,Llyn Brianne,44,LI4,21
-larsen_2018a,2007,intermediate,21,Llyn Brianne,51,LI4,19
-larsen_2018a,2010,intermediate,22,Llyn Brianne,48,LI4,17
-larsen_2018a,2012,intermediate,23,Llyn Brianne,57,LI4,29
-larsen_2018a,2013,last,24,Llyn Brianne,48,LI4,23
-larsen_2018a,1985,first,1,Llyn Brianne,56,LI6,27
-larsen_2018a,1986,intermediate,2,Llyn Brianne,50,LI6,33
-larsen_2018a,1987,intermediate,3,Llyn Brianne,43,LI6,33
-larsen_2018a,1988,intermediate,4,Llyn Brianne,46,LI6,31
-larsen_2018a,1989,intermediate,5,Llyn Brianne,41,LI6,26
-larsen_2018a,1990,intermediate,6,Llyn Brianne,53,LI6,23
-larsen_2018a,1992,intermediate,7,Llyn Brianne,57,LI6,19
-larsen_2018a,1993,intermediate,8,Llyn Brianne,36,LI6,22
-larsen_2018a,1995,intermediate,9,Llyn Brianne,52,LI6,39
-larsen_2018a,1996,intermediate,10,Llyn Brianne,52,LI6,25
-larsen_2018a,1997,intermediate,11,Llyn Brianne,53,LI6,35
-larsen_2018a,1998,intermediate,12,Llyn Brianne,55,LI6,25
-larsen_2018a,1999,intermediate,13,Llyn Brianne,53,LI6,29
-larsen_2018a,2000,intermediate,14,Llyn Brianne,58,LI6,28
-larsen_2018a,2001,intermediate,15,Llyn Brianne,54,LI6,38
-larsen_2018a,2002,intermediate,16,Llyn Brianne,46,LI6,27
-larsen_2018a,2003,intermediate,17,Llyn Brianne,43,LI6,24
-larsen_2018a,2004,intermediate,18,Llyn Brianne,41,LI6,17
-larsen_2018a,2005,intermediate,19,Llyn Brianne,46,LI6,27
-larsen_2018a,2006,intermediate,20,Llyn Brianne,44,LI6,23
-larsen_2018a,2007,intermediate,21,Llyn Brianne,51,LI6,24
-larsen_2018a,2010,intermediate,22,Llyn Brianne,48,LI6,27
-larsen_2018a,2012,intermediate,23,Llyn Brianne,57,LI6,33
-larsen_2018a,2013,last,24,Llyn Brianne,48,LI6,31
-larsen_2018a,1985,first,1,Llyn Brianne,56,LI7,37
-larsen_2018a,1986,intermediate,2,Llyn Brianne,50,LI7,38
-larsen_2018a,1987,intermediate,3,Llyn Brianne,43,LI7,30
-larsen_2018a,1988,intermediate,4,Llyn Brianne,46,LI7,36
-larsen_2018a,1989,intermediate,5,Llyn Brianne,41,LI7,31
-larsen_2018a,1990,intermediate,6,Llyn Brianne,53,LI7,38
-larsen_2018a,1992,intermediate,7,Llyn Brianne,57,LI7,43
-larsen_2018a,1993,intermediate,8,Llyn Brianne,36,LI7,21
-larsen_2018a,1995,intermediate,9,Llyn Brianne,52,LI7,28
-larsen_2018a,1996,intermediate,10,Llyn Brianne,52,LI7,32
-larsen_2018a,1997,intermediate,11,Llyn Brianne,53,LI7,37
-larsen_2018a,1998,intermediate,12,Llyn Brianne,55,LI7,39
-larsen_2018a,1999,intermediate,13,Llyn Brianne,53,LI7,27
-larsen_2018a,2000,intermediate,14,Llyn Brianne,58,LI7,42
-larsen_2018a,2001,intermediate,15,Llyn Brianne,54,LI7,34
-larsen_2018a,2002,intermediate,16,Llyn Brianne,46,LI7,37
-larsen_2018a,2003,intermediate,17,Llyn Brianne,43,LI7,28
-larsen_2018a,2004,intermediate,18,Llyn Brianne,41,LI7,31
-larsen_2018a,2005,intermediate,19,Llyn Brianne,46,LI7,36
-larsen_2018a,2006,intermediate,20,Llyn Brianne,44,LI7,32
-larsen_2018a,2007,intermediate,21,Llyn Brianne,51,LI7,31
-larsen_2018a,2010,intermediate,22,Llyn Brianne,48,LI7,29
-larsen_2018a,2012,intermediate,23,Llyn Brianne,57,LI7,41
-larsen_2018a,2013,last,24,Llyn Brianne,48,LI7,28
-larsen_2018a,1985,first,1,Llyn Brianne,56,LI8,25
-larsen_2018a,1986,intermediate,2,Llyn Brianne,50,LI8,20
-larsen_2018a,1987,intermediate,3,Llyn Brianne,43,LI8,21
-larsen_2018a,1988,intermediate,4,Llyn Brianne,46,LI8,21
-larsen_2018a,1989,intermediate,5,Llyn Brianne,41,LI8,16
-larsen_2018a,1990,intermediate,6,Llyn Brianne,53,LI8,27
-larsen_2018a,1992,intermediate,7,Llyn Brianne,57,LI8,23
-larsen_2018a,1993,intermediate,8,Llyn Brianne,36,LI8,10
-larsen_2018a,1995,intermediate,9,Llyn Brianne,52,LI8,22
-larsen_2018a,1996,intermediate,10,Llyn Brianne,52,LI8,24
-larsen_2018a,1997,intermediate,11,Llyn Brianne,53,LI8,24
-larsen_2018a,1998,intermediate,12,Llyn Brianne,55,LI8,16
-larsen_2018a,1999,intermediate,13,Llyn Brianne,53,LI8,21
-larsen_2018a,2000,intermediate,14,Llyn Brianne,58,LI8,24
-larsen_2018a,2001,intermediate,15,Llyn Brianne,54,LI8,17
-larsen_2018a,2002,intermediate,16,Llyn Brianne,46,LI8,20
-larsen_2018a,2003,intermediate,17,Llyn Brianne,43,LI8,18
-larsen_2018a,2004,intermediate,18,Llyn Brianne,41,LI8,14
-larsen_2018a,2005,intermediate,19,Llyn Brianne,46,LI8,15
-larsen_2018a,2006,intermediate,20,Llyn Brianne,44,LI8,16
-larsen_2018a,2007,intermediate,21,Llyn Brianne,51,LI8,18
-larsen_2018a,2010,intermediate,22,Llyn Brianne,48,LI8,15
-larsen_2018a,2012,intermediate,23,Llyn Brianne,57,LI8,19
-larsen_2018a,2013,last,24,Llyn Brianne,48,LI8,15
-larsen_2018b,1984,first,1,Wales,80,Site_1,19.65517
-larsen_2018b,1995,intermediate,2,Wales,86,Site_1,19.2069
-larsen_2018b,2012,last,3,Wales,82,Site_1,20.89655
-larsen_2018b,1984,first,1,Wales,80,Site_2,9.183102
-larsen_2018b,1995,intermediate,2,Wales,86,Site_2,7.820747
-larsen_2018b,2012,last,3,Wales,82,Site_2,9.956266
-litza_2016,1967,first,1,"Schleswig-Holstein, Germany",182,all_sites,39
-litza_2016,2015,last,2,"Schleswig-Holstein, Germany",164,all_sites,36
-molina-martinez_2016,1988,first,1,"Sierra de Juarez, Mexico",221,117,131
-molina-martinez_2016,2010,last,2,"Sierra de Juarez, Mexico",178,117,101
-molina-martinez_2016,1988,first,1,"Sierra de Juarez, Mexico",221,1300,91
-molina-martinez_2016,2010,last,2,"Sierra de Juarez, Mexico",178,1300,71
-molina-martinez_2016,1988,first,1,"Sierra de Juarez, Mexico",221,1600,66
-molina-martinez_2016,2010,last,2,"Sierra de Juarez, Mexico",178,1600,57
-molina-martinez_2016,1988,first,1,"Sierra de Juarez, Mexico",221,2000,34
-molina-martinez_2016,2010,last,2,"Sierra de Juarez, Mexico",178,2000,52
-molina-martinez_2016,1988,first,1,"Sierra de Juarez, Mexico",221,2400,15
-molina-martinez_2016,2010,last,2,"Sierra de Juarez, Mexico",178,2400,40
-molina-martinez_2016,1988,first,1,"Sierra de Juarez, Mexico",221,3000,11
-molina-martinez_2016,2010,last,2,"Sierra de Juarez, Mexico",178,3000,24
-molina-martinez_2016,1988,first,1,"Sierra de Juarez, Mexico",221,600,128
-molina-martinez_2016,2010,last,2,"Sierra de Juarez, Mexico",178,600,90
-molina-martinez_2016,1988,first,1,"Sierra de Juarez, Mexico",221,800,136
-molina-martinez_2016,2010,last,2,"Sierra de Juarez, Mexico",178,800,99
-prach_2018,1966,first,1,Bohemian Forest,222,all_sites,15
-prach_2018,2009,last,2,Bohemian Forest,201,all_sites,12
-van-der-berge_2019,1974,first,1,"forest, Turnhout",30,all_sites,5.6
-van-der-berge_2019,2015,last,2,"forest, Turnhout",24,all_sites,3.65
-van-der-berge_2019,1974,first,1,"hedgerows, Turnhout",70,all_sites,8.69
-van-der-berge_2019,2015,last,2,"hedgerows, Turnhout",120,all_sites,13.2
-zeni_2020,2003,first,1,"Sao Paulo state, Brazil",46,all_sites,10.42
-zeni_2020,2013,last,2,"Sao Paulo state, Brazil",44,all_sites,9.26
+dataset_id,year,regional,regional_richness,local,local_richness
+alignier_2018,1994,"Zone Atelier Armorique, France",308,all_sites,28.31
+alignier_2018,2015,"Zone Atelier Armorique, France",284,all_sites,31.89
+becker-scarpitta_2017a,1977,"Brotonne forest, France",18,all_subplots,3.3
+becker-scarpitta_2017a,2012,"Brotonne forest, France",53,all_subplots,6.8
+becker-scarpitta_2017b,1976,"Brotonne forest, France",87,all_plots,15.8
+becker-scarpitta_2017b,2009,"Brotonne forest, France",62,all_plots,9.8
+hassall_2012a,1996,"Cheshire, England",149,all_sites,23.5
+hassall_2012a,2006,"Cheshire, England",142,all_sites,22.3
+hassall_2012b,1995,"Cheshire, England",181,all_sites,29.5
+hassall_2012b,2006,"Cheshire, England",201,all_sites,39.8
+hibit_2019,1970,Hawaii,21,Plot 3,4.35468340507591
+hibit_2019,2017,Hawaii,21,Plot 3,5.99661598626728
+hibit_2019,1970,Hawaii,21,Plot 4,4.86080048092173
+hibit_2019,2017,Hawaii,21,Plot 4,9
+hibit_2019,1970,Hawaii,21,Plot 5,3.6305353825288
+hibit_2019,2017,Hawaii,21,Plot 5,4.86605715647258
+hibit_2019,1970,Hawaii,21,Plot 6,8.21170384078612
+hibit_2019,2017,Hawaii,21,Plot 6,10.2475360460969
+hibit_2019,1970,Hawaii,21,Plot 7,6.26237966176381
+hibit_2019,2017,Hawaii,21,Plot 7,7.16532617878451
+kolari_2021,1998,"Elimyssalo Nature Reserve, Finland",110,high pH,11.6
+kolari_2021,1998,"Elimyssalo Nature Reserve, Finland",110,high pH,11.6
+kolari_2021,2018,"Elimyssalo Nature Reserve, Finland",112,high pH,15.8
+kolari_2021,2018,"Elimyssalo Nature Reserve, Finland",112,high pH,15.8
+kolari_2021,1998,"Elimyssalo Nature Reserve, Finland",110,intermediate pH,11.8
+kolari_2021,1998,"Elimyssalo Nature Reserve, Finland",110,intermediate pH,11.8
+kolari_2021,2018,"Elimyssalo Nature Reserve, Finland",112,intermediate pH,13.2
+kolari_2021,2018,"Elimyssalo Nature Reserve, Finland",112,intermediate pH,13.2
+kolari_2021,1998,"Elimyssalo Nature Reserve, Finland",110,low pH,9.6
+kolari_2021,1998,"Elimyssalo Nature Reserve, Finland",110,low pH,9.6
+kolari_2021,2018,"Elimyssalo Nature Reserve, Finland",112,low pH,11.7
+kolari_2021,2018,"Elimyssalo Nature Reserve, Finland",112,low pH,11.7
+kolari_2021,1998,"Elimyssalo Nature Reserve, Finland",110,very low pH,10.1
+kolari_2021,1998,"Elimyssalo Nature Reserve, Finland",110,very low pH,10.1
+kolari_2021,2018,"Elimyssalo Nature Reserve, Finland",112,very low pH,11.5
+kolari_2021,2018,"Elimyssalo Nature Reserve, Finland",112,very low pH,11.5
+larsen_2018a,1985,Llyn Brianne,56,CI1,23
+larsen_2018a,1986,Llyn Brianne,50,CI1,25
+larsen_2018a,1987,Llyn Brianne,43,CI1,20
+larsen_2018a,1988,Llyn Brianne,46,CI1,22
+larsen_2018a,1989,Llyn Brianne,41,CI1,27
+larsen_2018a,1990,Llyn Brianne,53,CI1,23
+larsen_2018a,1992,Llyn Brianne,57,CI1,16
+larsen_2018a,1993,Llyn Brianne,36,CI1,18
+larsen_2018a,1995,Llyn Brianne,52,CI1,23
+larsen_2018a,1996,Llyn Brianne,52,CI1,17
+larsen_2018a,1997,Llyn Brianne,53,CI1,18
+larsen_2018a,1998,Llyn Brianne,55,CI1,18
+larsen_2018a,1999,Llyn Brianne,53,CI1,21
+larsen_2018a,2000,Llyn Brianne,58,CI1,21
+larsen_2018a,2001,Llyn Brianne,54,CI1,16
+larsen_2018a,2002,Llyn Brianne,46,CI1,17
+larsen_2018a,2003,Llyn Brianne,43,CI1,19
+larsen_2018a,2004,Llyn Brianne,41,CI1,20
+larsen_2018a,2005,Llyn Brianne,46,CI1,22
+larsen_2018a,2006,Llyn Brianne,44,CI1,19
+larsen_2018a,2007,Llyn Brianne,51,CI1,23
+larsen_2018a,2010,Llyn Brianne,48,CI1,29
+larsen_2018a,2012,Llyn Brianne,57,CI1,20
+larsen_2018a,2013,Llyn Brianne,48,CI1,29
+larsen_2018a,1985,Llyn Brianne,56,CI2,18
+larsen_2018a,1986,Llyn Brianne,50,CI2,15
+larsen_2018a,1987,Llyn Brianne,43,CI2,18
+larsen_2018a,1988,Llyn Brianne,46,CI2,20
+larsen_2018a,1989,Llyn Brianne,41,CI2,22
+larsen_2018a,1990,Llyn Brianne,53,CI2,21
+larsen_2018a,1992,Llyn Brianne,57,CI2,16
+larsen_2018a,1993,Llyn Brianne,36,CI2,12
+larsen_2018a,1995,Llyn Brianne,52,CI2,22
+larsen_2018a,1996,Llyn Brianne,52,CI2,15
+larsen_2018a,1997,Llyn Brianne,53,CI2,24
+larsen_2018a,1998,Llyn Brianne,55,CI2,17
+larsen_2018a,1999,Llyn Brianne,53,CI2,15
+larsen_2018a,2000,Llyn Brianne,58,CI2,17
+larsen_2018a,2001,Llyn Brianne,54,CI2,14
+larsen_2018a,2002,Llyn Brianne,46,CI2,14
+larsen_2018a,2003,Llyn Brianne,43,CI2,13
+larsen_2018a,2004,Llyn Brianne,41,CI2,14
+larsen_2018a,2005,Llyn Brianne,46,CI2,14
+larsen_2018a,2006,Llyn Brianne,44,CI2,13
+larsen_2018a,2007,Llyn Brianne,51,CI2,12
+larsen_2018a,2010,Llyn Brianne,48,CI2,12
+larsen_2018a,2012,Llyn Brianne,57,CI2,18
+larsen_2018a,2013,Llyn Brianne,48,CI2,14
+larsen_2018a,1985,Llyn Brianne,56,CI4,19
+larsen_2018a,1986,Llyn Brianne,50,CI4,17
+larsen_2018a,1987,Llyn Brianne,43,CI4,19
+larsen_2018a,1988,Llyn Brianne,46,CI4,16
+larsen_2018a,1989,Llyn Brianne,41,CI4,18
+larsen_2018a,1990,Llyn Brianne,53,CI4,26
+larsen_2018a,1992,Llyn Brianne,57,CI4,16
+larsen_2018a,1993,Llyn Brianne,36,CI4,9
+larsen_2018a,1995,Llyn Brianne,52,CI4,10
+larsen_2018a,1996,Llyn Brianne,52,CI4,20
+larsen_2018a,1997,Llyn Brianne,53,CI4,23
+larsen_2018a,1998,Llyn Brianne,55,CI4,16
+larsen_2018a,1999,Llyn Brianne,53,CI4,17
+larsen_2018a,2000,Llyn Brianne,58,CI4,18
+larsen_2018a,2001,Llyn Brianne,54,CI4,13
+larsen_2018a,2002,Llyn Brianne,46,CI4,17
+larsen_2018a,2003,Llyn Brianne,43,CI4,19
+larsen_2018a,2004,Llyn Brianne,41,CI4,16
+larsen_2018a,2005,Llyn Brianne,46,CI4,16
+larsen_2018a,2006,Llyn Brianne,44,CI4,9
+larsen_2018a,2007,Llyn Brianne,51,CI4,17
+larsen_2018a,2010,Llyn Brianne,48,CI4,15
+larsen_2018a,2012,Llyn Brianne,57,CI4,26
+larsen_2018a,2013,Llyn Brianne,48,CI4,15
+larsen_2018a,1985,Llyn Brianne,56,CI5,22
+larsen_2018a,1986,Llyn Brianne,50,CI5,15
+larsen_2018a,1987,Llyn Brianne,43,CI5,22
+larsen_2018a,1988,Llyn Brianne,46,CI5,27
+larsen_2018a,1989,Llyn Brianne,41,CI5,22
+larsen_2018a,1990,Llyn Brianne,53,CI5,19
+larsen_2018a,1992,Llyn Brianne,57,CI5,19
+larsen_2018a,1993,Llyn Brianne,36,CI5,7
+larsen_2018a,1995,Llyn Brianne,52,CI5,26
+larsen_2018a,1996,Llyn Brianne,52,CI5,22
+larsen_2018a,1997,Llyn Brianne,53,CI5,24
+larsen_2018a,1998,Llyn Brianne,55,CI5,23
+larsen_2018a,1999,Llyn Brianne,53,CI5,19
+larsen_2018a,2000,Llyn Brianne,58,CI5,24
+larsen_2018a,2001,Llyn Brianne,54,CI5,15
+larsen_2018a,2002,Llyn Brianne,46,CI5,17
+larsen_2018a,2003,Llyn Brianne,43,CI5,12
+larsen_2018a,2004,Llyn Brianne,41,CI5,8
+larsen_2018a,2005,Llyn Brianne,46,CI5,18
+larsen_2018a,2006,Llyn Brianne,44,CI5,18
+larsen_2018a,2007,Llyn Brianne,51,CI5,20
+larsen_2018a,2010,Llyn Brianne,48,CI5,21
+larsen_2018a,2012,Llyn Brianne,57,CI5,21
+larsen_2018a,2013,Llyn Brianne,48,CI5,27
+larsen_2018a,1985,Llyn Brianne,56,LI1,18
+larsen_2018a,1986,Llyn Brianne,50,LI1,22
+larsen_2018a,1987,Llyn Brianne,43,LI1,19
+larsen_2018a,1988,Llyn Brianne,46,LI1,17
+larsen_2018a,1989,Llyn Brianne,41,LI1,18
+larsen_2018a,1990,Llyn Brianne,53,LI1,17
+larsen_2018a,1992,Llyn Brianne,57,LI1,20
+larsen_2018a,1993,Llyn Brianne,36,LI1,13
+larsen_2018a,1995,Llyn Brianne,52,LI1,15
+larsen_2018a,1996,Llyn Brianne,52,LI1,23
+larsen_2018a,1997,Llyn Brianne,53,LI1,18
+larsen_2018a,1998,Llyn Brianne,55,LI1,13
+larsen_2018a,1999,Llyn Brianne,53,LI1,17
+larsen_2018a,2000,Llyn Brianne,58,LI1,21
+larsen_2018a,2001,Llyn Brianne,54,LI1,14
+larsen_2018a,2002,Llyn Brianne,46,LI1,17
+larsen_2018a,2003,Llyn Brianne,43,LI1,13
+larsen_2018a,2004,Llyn Brianne,41,LI1,9
+larsen_2018a,2005,Llyn Brianne,46,LI1,7
+larsen_2018a,2006,Llyn Brianne,44,LI1,14
+larsen_2018a,2007,Llyn Brianne,51,LI1,14
+larsen_2018a,2010,Llyn Brianne,48,LI1,15
+larsen_2018a,2012,Llyn Brianne,57,LI1,14
+larsen_2018a,2013,Llyn Brianne,48,LI1,15
+larsen_2018a,1985,Llyn Brianne,56,LI2,15
+larsen_2018a,1986,Llyn Brianne,50,LI2,17
+larsen_2018a,1987,Llyn Brianne,43,LI2,16
+larsen_2018a,1988,Llyn Brianne,46,LI2,17
+larsen_2018a,1989,Llyn Brianne,41,LI2,15
+larsen_2018a,1990,Llyn Brianne,53,LI2,17
+larsen_2018a,1992,Llyn Brianne,57,LI2,21
+larsen_2018a,1993,Llyn Brianne,36,LI2,8
+larsen_2018a,1995,Llyn Brianne,52,LI2,16
+larsen_2018a,1996,Llyn Brianne,52,LI2,15
+larsen_2018a,1997,Llyn Brianne,53,LI2,18
+larsen_2018a,1998,Llyn Brianne,55,LI2,16
+larsen_2018a,1999,Llyn Brianne,53,LI2,14
+larsen_2018a,2000,Llyn Brianne,58,LI2,18
+larsen_2018a,2001,Llyn Brianne,54,LI2,9
+larsen_2018a,2002,Llyn Brianne,46,LI2,18
+larsen_2018a,2003,Llyn Brianne,43,LI2,13
+larsen_2018a,2004,Llyn Brianne,41,LI2,8
+larsen_2018a,2005,Llyn Brianne,46,LI2,12
+larsen_2018a,2006,Llyn Brianne,44,LI2,14
+larsen_2018a,2007,Llyn Brianne,51,LI2,13
+larsen_2018a,2010,Llyn Brianne,48,LI2,15
+larsen_2018a,2012,Llyn Brianne,57,LI2,17
+larsen_2018a,2013,Llyn Brianne,48,LI2,12
+larsen_2018a,1985,Llyn Brianne,56,LI4,15
+larsen_2018a,1986,Llyn Brianne,50,LI4,17
+larsen_2018a,1987,Llyn Brianne,43,LI4,19
+larsen_2018a,1988,Llyn Brianne,46,LI4,21
+larsen_2018a,1989,Llyn Brianne,41,LI4,19
+larsen_2018a,1990,Llyn Brianne,53,LI4,19
+larsen_2018a,1992,Llyn Brianne,57,LI4,18
+larsen_2018a,1993,Llyn Brianne,36,LI4,10
+larsen_2018a,1995,Llyn Brianne,52,LI4,14
+larsen_2018a,1996,Llyn Brianne,52,LI4,20
+larsen_2018a,1997,Llyn Brianne,53,LI4,13
+larsen_2018a,1998,Llyn Brianne,55,LI4,19
+larsen_2018a,1999,Llyn Brianne,53,LI4,20
+larsen_2018a,2000,Llyn Brianne,58,LI4,23
+larsen_2018a,2001,Llyn Brianne,54,LI4,15
+larsen_2018a,2002,Llyn Brianne,46,LI4,15
+larsen_2018a,2003,Llyn Brianne,43,LI4,18
+larsen_2018a,2004,Llyn Brianne,41,LI4,18
+larsen_2018a,2005,Llyn Brianne,46,LI4,18
+larsen_2018a,2006,Llyn Brianne,44,LI4,21
+larsen_2018a,2007,Llyn Brianne,51,LI4,19
+larsen_2018a,2010,Llyn Brianne,48,LI4,17
+larsen_2018a,2012,Llyn Brianne,57,LI4,29
+larsen_2018a,2013,Llyn Brianne,48,LI4,23
+larsen_2018a,1985,Llyn Brianne,56,LI6,27
+larsen_2018a,1986,Llyn Brianne,50,LI6,33
+larsen_2018a,1987,Llyn Brianne,43,LI6,33
+larsen_2018a,1988,Llyn Brianne,46,LI6,31
+larsen_2018a,1989,Llyn Brianne,41,LI6,26
+larsen_2018a,1990,Llyn Brianne,53,LI6,23
+larsen_2018a,1992,Llyn Brianne,57,LI6,19
+larsen_2018a,1993,Llyn Brianne,36,LI6,22
+larsen_2018a,1995,Llyn Brianne,52,LI6,39
+larsen_2018a,1996,Llyn Brianne,52,LI6,25
+larsen_2018a,1997,Llyn Brianne,53,LI6,35
+larsen_2018a,1998,Llyn Brianne,55,LI6,25
+larsen_2018a,1999,Llyn Brianne,53,LI6,29
+larsen_2018a,2000,Llyn Brianne,58,LI6,28
+larsen_2018a,2001,Llyn Brianne,54,LI6,38
+larsen_2018a,2002,Llyn Brianne,46,LI6,27
+larsen_2018a,2003,Llyn Brianne,43,LI6,24
+larsen_2018a,2004,Llyn Brianne,41,LI6,17
+larsen_2018a,2005,Llyn Brianne,46,LI6,27
+larsen_2018a,2006,Llyn Brianne,44,LI6,23
+larsen_2018a,2007,Llyn Brianne,51,LI6,24
+larsen_2018a,2010,Llyn Brianne,48,LI6,27
+larsen_2018a,2012,Llyn Brianne,57,LI6,33
+larsen_2018a,2013,Llyn Brianne,48,LI6,31
+larsen_2018a,1985,Llyn Brianne,56,LI7,37
+larsen_2018a,1986,Llyn Brianne,50,LI7,38
+larsen_2018a,1987,Llyn Brianne,43,LI7,30
+larsen_2018a,1988,Llyn Brianne,46,LI7,36
+larsen_2018a,1989,Llyn Brianne,41,LI7,31
+larsen_2018a,1990,Llyn Brianne,53,LI7,38
+larsen_2018a,1992,Llyn Brianne,57,LI7,43
+larsen_2018a,1993,Llyn Brianne,36,LI7,21
+larsen_2018a,1995,Llyn Brianne,52,LI7,28
+larsen_2018a,1996,Llyn Brianne,52,LI7,32
+larsen_2018a,1997,Llyn Brianne,53,LI7,37
+larsen_2018a,1998,Llyn Brianne,55,LI7,39
+larsen_2018a,1999,Llyn Brianne,53,LI7,27
+larsen_2018a,2000,Llyn Brianne,58,LI7,42
+larsen_2018a,2001,Llyn Brianne,54,LI7,34
+larsen_2018a,2002,Llyn Brianne,46,LI7,37
+larsen_2018a,2003,Llyn Brianne,43,LI7,28
+larsen_2018a,2004,Llyn Brianne,41,LI7,31
+larsen_2018a,2005,Llyn Brianne,46,LI7,36
+larsen_2018a,2006,Llyn Brianne,44,LI7,32
+larsen_2018a,2007,Llyn Brianne,51,LI7,31
+larsen_2018a,2010,Llyn Brianne,48,LI7,29
+larsen_2018a,2012,Llyn Brianne,57,LI7,41
+larsen_2018a,2013,Llyn Brianne,48,LI7,28
+larsen_2018a,1985,Llyn Brianne,56,LI8,25
+larsen_2018a,1986,Llyn Brianne,50,LI8,20
+larsen_2018a,1987,Llyn Brianne,43,LI8,21
+larsen_2018a,1988,Llyn Brianne,46,LI8,21
+larsen_2018a,1989,Llyn Brianne,41,LI8,16
+larsen_2018a,1990,Llyn Brianne,53,LI8,27
+larsen_2018a,1992,Llyn Brianne,57,LI8,23
+larsen_2018a,1993,Llyn Brianne,36,LI8,10
+larsen_2018a,1995,Llyn Brianne,52,LI8,22
+larsen_2018a,1996,Llyn Brianne,52,LI8,24
+larsen_2018a,1997,Llyn Brianne,53,LI8,24
+larsen_2018a,1998,Llyn Brianne,55,LI8,16
+larsen_2018a,1999,Llyn Brianne,53,LI8,21
+larsen_2018a,2000,Llyn Brianne,58,LI8,24
+larsen_2018a,2001,Llyn Brianne,54,LI8,17
+larsen_2018a,2002,Llyn Brianne,46,LI8,20
+larsen_2018a,2003,Llyn Brianne,43,LI8,18
+larsen_2018a,2004,Llyn Brianne,41,LI8,14
+larsen_2018a,2005,Llyn Brianne,46,LI8,15
+larsen_2018a,2006,Llyn Brianne,44,LI8,16
+larsen_2018a,2007,Llyn Brianne,51,LI8,18
+larsen_2018a,2010,Llyn Brianne,48,LI8,15
+larsen_2018a,2012,Llyn Brianne,57,LI8,19
+larsen_2018a,2013,Llyn Brianne,48,LI8,15
+larsen_2018b,1984,Wales,80,Site_1,19.65517
+larsen_2018b,1995,Wales,86,Site_1,19.2069
+larsen_2018b,2012,Wales,82,Site_1,20.89655
+larsen_2018b,1984,Wales,80,Site_2,9.183102
+larsen_2018b,1995,Wales,86,Site_2,7.820747
+larsen_2018b,2012,Wales,82,Site_2,9.956266
+litza_2016,1967,"Schleswig-Holstein, Germany",182,all_sites,39
+litza_2016,2015,"Schleswig-Holstein, Germany",164,all_sites,36
+molina-martinez_2016,1988,"Sierra de Juarez, Mexico",221,117,131
+molina-martinez_2016,2010,"Sierra de Juarez, Mexico",178,117,101
+molina-martinez_2016,1988,"Sierra de Juarez, Mexico",221,1300,91
+molina-martinez_2016,2010,"Sierra de Juarez, Mexico",178,1300,71
+molina-martinez_2016,1988,"Sierra de Juarez, Mexico",221,1600,66
+molina-martinez_2016,2010,"Sierra de Juarez, Mexico",178,1600,57
+molina-martinez_2016,1988,"Sierra de Juarez, Mexico",221,2000,34
+molina-martinez_2016,2010,"Sierra de Juarez, Mexico",178,2000,52
+molina-martinez_2016,1988,"Sierra de Juarez, Mexico",221,2400,15
+molina-martinez_2016,2010,"Sierra de Juarez, Mexico",178,2400,40
+molina-martinez_2016,1988,"Sierra de Juarez, Mexico",221,3000,11
+molina-martinez_2016,2010,"Sierra de Juarez, Mexico",178,3000,24
+molina-martinez_2016,1988,"Sierra de Juarez, Mexico",221,600,128
+molina-martinez_2016,2010,"Sierra de Juarez, Mexico",178,600,90
+molina-martinez_2016,1988,"Sierra de Juarez, Mexico",221,800,136
+molina-martinez_2016,2010,"Sierra de Juarez, Mexico",178,800,99
+prach_2018,1966,Bohemian Forest,222,all_sites,15
+prach_2018,2009,Bohemian Forest,201,all_sites,12
+van-der-berge_2019,1974,"forest, Turnhout",30,all_sites,5.6
+van-der-berge_2019,2015,"forest, Turnhout",24,all_sites,3.65
+van-der-berge_2019,1974,"hedgerows, Turnhout",70,all_sites,8.69
+van-der-berge_2019,2015,"hedgerows, Turnhout",120,all_sites,13.2
+zeni_2020,2003,"Sao Paulo state, Brazil",46,all_sites,10.42
+zeni_2020,2013,"Sao Paulo state, Brazil",44,all_sites,9.26

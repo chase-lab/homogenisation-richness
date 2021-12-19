@@ -1,7 +1,6 @@
 variable name	necessary	definition
 dataset_id	TRUE	NA
 year	TRUE	NA
-period	TRUE	NA
 regional	TRUE	archipelago name
 local	TRUE	"island, lake, forest name"
 latitude	TRUE	decimal degree, WGS84

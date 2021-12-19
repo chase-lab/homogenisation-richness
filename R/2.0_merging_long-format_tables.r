@@ -26,18 +26,24 @@ dt[,.(nsites = length(unique(local))), by = dataset_id][order(nsites, decreasing
 
 # Ordering dt ----
 data.table::setcolorder(dt, intersect(column_names_template, colnames(dt)))
-data.table::setorder(dt, dataset_id, regional, local, period, year)
+data.table::setorder(dt, dataset_id, regional, local, year)
 
 # Temporary fix of timepoints ----
-dt[, timepoints := as.integer(gsub('T', '', timepoints))]
+# dt[, timepoints := as.integer(gsub('T', '', timepoints))]
+
+# Deleting timepoints ----
+dt[, timepoints := NULL]
 
 # Temporary fix of period ----
-dt[ timepoints == '1', period := 'first']
-dt[, ismax := timepoints == max(timepoints), by = dataset_id][ (ismax), period := 'last'][, ismax := NULL]
-dt[ !period %in% c('first','last'), period := 'intermediate']
+# dt[ timepoints == '1', period := 'first']
+# dt[, ismax := timepoints == max(timepoints), by = dataset_id][ (ismax), period := 'last'][, ismax := NULL]
+# dt[ !period %in% c('first','last'), period := 'intermediate']
+
+# Temporary fix of period ----
+dt[, period := NULL]
 
 # * checking timepoints ----
-if (!all(dt[, (check = which.max(year) == which.max(timepoints)), by = dataset_id]$check)) warning('timepoints order has to be checked')
+# if (!all(dt[, (check = which.max(year) == which.max(timepoints)), by = dataset_id]$check)) warning('timepoints order has to be checked')
 
 # Saving dt ----
 data.table::fwrite(dt, 'data/communities.csv', row.names = F)
@@ -102,8 +108,11 @@ data.table::setnames(meta, c('alpha_grain', 'gamma_bounding_box', 'gamma_sum_gra
 # Converting coordinates into a common format with parzer ----
 meta[, ":="(latitude = parzer::parse_lat(latitude), longitude = parzer::parse_lon(longitude))]
 
+# Deleting period and timepoints ----
+meta[, c("timepoints","period") := NULL]
+
 # Ordering metadata ----
-data.table::setorder(meta, dataset_id, regional, local, period, year)
+data.table::setorder(meta, dataset_id, regional, local, year)
 data.table::setcolorder(meta, intersect(column_names_template_metadata, colnames(meta)))
 
 # Checks ----
@@ -137,8 +146,8 @@ if (any( !na.omit(unique(meta$gamma_bounding_box_unit)) %in%  c("ha", "km2", "m2
 
 # Checking that all data sets have both community and metadata data ----
 if (length(base::setdiff(unique(dt$dataset_id), unique(meta$dataset_id))) > 0) warning('Incomplete community or metadata tables')
-if (nrow(meta) != nrow(unique(meta[, .(dataset_id, regional, local, year, period)]))) warning("Redundant rows in meta")
-if (nrow(meta) != nrow(unique(dt[, .(dataset_id, regional, local, year, period)]))) warning("Discrepancies between dt and meta")
+if (nrow(meta) != nrow(unique(meta[, .(dataset_id, regional, local, year)]))) warning("Redundant rows in meta")
+if (nrow(meta) != nrow(unique(dt[, .(dataset_id, regional, local, year)]))) warning("Discrepancies between dt and meta")
 
 
 
