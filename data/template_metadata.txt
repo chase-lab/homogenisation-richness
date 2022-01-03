@@ -1,28 +1,27 @@
 variable name	necessary	definition
-dataset_id	TRUE	NA
-year	TRUE	NA
-regional	TRUE	archipelago name
-local	TRUE	"island, lake, forest name"
-latitude	TRUE	decimal degree, WGS84
-longitude	TRUE	decimal degree, WGS84
-effort	FALSE	NA
-checklist	FALSE	NA
-study_type	TRUE	one of "resurvey", "checklist" or "ecological sampling". A checklist has no well defined effort, it can be specialists lising all encountered species over an area or researchers aggregating species composition from the literature, museum collections, etc. RESURVEY: typically two samplings separated by a long, 20+ years, stretch of time and a great deal of effort is put in matching very precisely historical plots or transects. ECOLOGICAL SAMPLING: these studies generally involve more samplings than resurveys: 10 samplings, 1 every few years.
+dataset_id	TRUE	Unique ID linked to a publication (article or data set). If the data set was split because different taxa group are provided, a letter is added at the end.
+year	TRUE	Year of sampling
+regional	TRUE	Region name. Can be a national park, a state or a forest name for example. A data set can have several regions.
+local	TRUE	Island, lake, forest name
+latitude	TRUE	Decimal degree, WGS84
+longitude	TRUE	Decimal degree, WGS84
+effort	FALSE	Effort is the number of sites in the region/the number of sites used to compute the mean local taxonomic richness.
+study_type	TRUE	One of "resurvey"or "ecological sampling". RESURVEY: typically two samplings separated by a long, 20+ years, stretch of time and a great deal of effort is put in matching very precisely historical plots or transects. ECOLOGICAL SAMPLING: these studies generally involve more samplings than resurveys: 10 samplings, 1 every few years.
 data_pooled_by_authors	TRUE	TRUE if the data provided by the authors was already pooled covering several years: several samples made over several years pooled together
-data_pooled_by_authors_comment	FALSE	if there was pooling by the original authors: free text describing how the authors pooled data
-sampling_years	FALSE	if there was pooling by the original authors: years sampled for each period. "1997, 1999" means 1997 and 1999, "1997-1999" means 1997, 1998 and 1999
-alpha_grain	TRUE	NA
-alpha_grain_unit	TRUE	NA
-alpha_grain_type	TRUE	NA
-alpha_grain_comment	TRUE	NA
-gamma_bounding_box	TRUE	NA
-gamma_bounding_box_unit	TRUE	NA
-gamma_bounding_box_type	TRUE	NA
-gamma_bounding_box_comment	TRUE	NA
-gamma_sum_grains	TRUE	NA
-gamma_sum_grains_unit	TRUE	NA
-gamma_sum_grains_type	TRUE	NA
-gamma_sum_grains_comment	TRUE	NA
-realm	TRUE	NA
-taxon	TRUE	NA
-comment	TRUE	NA
+data_pooled_by_authors_comment	FALSE	If there was pooling by the original authors: free text describing how the authors pooled data
+sampling_years	FALSE	If there was pooling by the original authors: years sampled for each period. "1997, 1999" means 1997 and 1999, "1997-1999" means 1997, 1998 and 1999
+alpha_grain	TRUE	Area of the local unit or area of the sampling gear (alpha_grain_type = sample)
+alpha_grain_unit	TRUE	Unit of the area recorded in alpha_grain
+alpha_grain_type	TRUE	Category of alpha_grain, one of: sample, plot or lake_pond
+alpha_grain_comment	TRUE	Description of the alpha_grain measure
+gamma_bounding_box	TRUE	Measure of the extent/regional scale area as the area covering all sites, computed as a convex-hull or a rectangle box or as the area of the administrative unit in which sites are found.
+gamma_bounding_box_unit	TRUE	Unit in which the gamma_bounding_box area is expressed
+gamma_bounding_box_type	TRUE	Category of gamma_bounding_box, one of: "administrative", "island", "functional", "box" or "catchment".
+gamma_bounding_box_comment	TRUE	Description or source of the gamma_bounding_box value
+gamma_sum_grains	TRUE	Measure of the extent/regional scale area as the sum of the grains sampled each year.
+gamma_sum_grains_unit	TRUE	Unit in which the gamma_sum_grains area is expressed
+gamma_sum_grains_type	TRUE	Category of gamma_sum_grains, one of: "plot", "sample" or "lake_pond"
+gamma_sum_grains_comment	TRUE	Description or source of the gamma_sum_grains value
+realm	TRUE	Realm in which the sampling was done, one of: Freshwater or Terrestrial
+taxon	TRUE	Taxon group of the data set, one of: "Plants", "Invertebrates" or "Fish" 
+comment	TRUE	A description of the data set origin, goal and sampling method.

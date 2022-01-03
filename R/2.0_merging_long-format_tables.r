@@ -132,12 +132,12 @@ if (any(meta[(data_pooled_by_authors), is.na(data_pooled_by_authors_comment)])) 
 unique(meta[effort == 'unknown' | is.na(effort), .(dataset_id, effort)])
 
 ## checking alpha_grain_type ----
-if (any(!unique(meta$alpha_grain_type) %in% c("island", "plot", "administrative", "watershed", "sample", "lake_pond", "archipelago", "trap", "transect", "ecosystem", "functional"))) warning(paste("Invalid alpha_grain_type value in", unique(meta[!alpha_grain_type %in% c("island", "plot", "administrative", "watershed", "sample", "lake_pond", "archipelago", "trap", "transect", "ecosystem", "functional"), dataset_id]), collapse = ", "))
+if (any(!unique(meta$alpha_grain_type) %in% c("plot", "sample", "lake_pond"))) warning(paste("Invalid alpha_grain_type value in", unique(meta[!alpha_grain_type %in% c("plot", "sample", "lake_pond"), dataset_id]), collapse = ", "))
 
 ## checking gamma_sum_grains_type & gamma_bounding_box_type ----
-if (any(!na.omit(unique(meta$gamma_sum_grains_type)) %in% c("archipelago", "administrative", "watershed", "sample", "lake_pond", "plot", "quadrat", "transect", "ecosystem", "functional", "box"))) warning(paste("Invalid gamma_sum_grains_type value in", paste(unique(meta[!gamma_sum_grains_type %in% c("archipelago", "administrative", "watershed", "sample", "lake_pond", "plot", "quadrat", "transect", "ecosystem", "functional", "box"), dataset_id]), collapse = ", ")))
+if (any(!na.omit(unique(meta$gamma_sum_grains_type)) %in% c("plot", "sample", "lake_pond"))) warning(paste("Invalid gamma_sum_grains_type value in", paste(unique(meta[!gamma_sum_grains_type %in% c("plot", "sample", "lake_pond"), dataset_id]), collapse = ", ")))
 
-if (any(!na.omit(unique(meta$gamma_bounding_box_type)) %in% c("administrative", "island", "functional", "convex-hull", "watershed", "box", "buffer", "ecosystem", "shore"))) warning(paste("Invalid gamma_bounding_box_type value in", paste(unique(meta[!gamma_bounding_box_type %in% c("administrative", "island", "functional", "convex-hull", "watershed", "box", "buffer", "ecosystem", "shore"), dataset_id]), collapse = ", ")))
+if (any(!na.omit(unique(meta$gamma_bounding_box_type)) %in% c("administrative", "island", "functional", "box", "catchment"))) warning(paste("Invalid gamma_bounding_box_type value in", paste(unique(meta[!gamma_bounding_box_type %in% c("administrative", "island", "functional", "box", "catchment"), dataset_id]), collapse = ", ")))
 
 ## checking units ----
 if (any( !na.omit(unique(meta$alpha_grain_unit)) %in%  c("acres", "ha", "km2", "m2","cm2", "mile2"))) warning("Non standard unit in alpha")

@@ -1,7 +1,7 @@
 variable name	necessary	definition
-dataset_id	TRUE	NA
-year	TRUE	NA
-regional	TRUE	archipelago name
-regional_richness	TRUE	taxonomic richness
-local	TRUE	"island, lake, forest name"
-local_richness	TRUE	NA
+dataset_id	TRUE	Unique ID linked to a publication (article or data set). If the data set was split because different taxa group are provided, a letter is added at the end.
+year	TRUE	year of sampling
+regional	TRUE	region name. Can be a national park, a state or a forest name for example. A data set can have several regions.
+regional_richness	TRUE	taxonomic richness at the regional scale.
+local	TRUE	island, lake, forest name
+local_richness	TRUE	taxonomic richness at the local scale. Can be the mean or the median of measured specific richnesses over several sites/locations.
