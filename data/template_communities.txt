@@ -1,7 +1,7 @@
 variable name	necessary	definition
-dataset_id	TRUE	Unique ID linked to a publication (article or data set). If the data set was split because different taxa group are provided, a letter is added at the end.
-year	TRUE	year of sampling
-regional	TRUE	region name. Can be a national park, a state or a forest name for example. A data set can have several regions.
-regional_richness	TRUE	taxonomic richness at the regional scale.
-local	TRUE	island, lake, forest name
-local_richness	TRUE	taxonomic richness at the local scale. Can be the mean or the median of measured specific richnesses over several sites/locations.
+dataset_id	TRUE	Unique ID linked to a publication (article or data set). If the data set was split because different taxa groups are provided, a letter is added at the end.
+year	TRUE	Year of sampling. If sampling was pooled over several years, the last sampling year is used here.
+regional	TRUE	Region name, countains at least two localities. Can be a national park, a state or a forest name for example but smaller scales are also included where the region is an experimental sites. A data set can have several regions.
+regional_richness	TRUE	Taxonomic richness at the regional or gamma scale.
+local	TRUE	Name or code of the sampled locality or experimental sample. For example, it can correspond to the name of an island, a lake or forest.
+local_richness	TRUE	Taxonomic richness at the local or alpha scale. Can be the mean or the median of measured specific richnesses over several sites/locations.
