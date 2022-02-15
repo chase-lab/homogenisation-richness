@@ -1,0 +1,7 @@
+variable name	definition
+dataset_id	"Unique ID linked to a publication (article or data set). If the data set was split because different taxa groups are provided, a letter is added at the end. No missing value."
+year	"Year of sampling. If sampling was pooled over several years, the last sampling year is used here. No missing value."
+regional	"Region name, countains at least two localities. Can be a national park, a state or a forest name for example but smaller scales are also included where the region is an experimental sites. A data set can have several regions. No missing value. UTF-8 encoding."
+regional_richness	Taxonomic richness at the regional or gamma scale. No missing value.
+local	"Name or code of the sampled locality or experimental sample. For example, it can correspond to the name of an island, a lake or forest. No missing value. UTF-8 encoding."
+local_richness	Taxonomic richness at the local or alpha scale. Can be the mean or the median of measured specific richnesses over several sites/locations. No missing value.
