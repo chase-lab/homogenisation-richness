@@ -44,6 +44,7 @@ dt[, period := NULL]
 
 # * checking timepoints ----
 # if (!all(dt[, (check = which.max(year) == which.max(timepoints)), by = dataset_id]$check)) warning('timepoints order has to be checked')
+if (anyDuplicated(dt)) warning("Duplicated rows in meta data")
 
 # Saving dt ----
 data.table::fwrite(dt, 'data/communities.csv', row.names = F)
@@ -103,6 +104,7 @@ data.table::setorder(meta, dataset_id, regional, local, year)
 data.table::setcolorder(meta, intersect(column_names_template_metadata, colnames(meta)))
 
 # Checks ----
+if (anyDuplicated(meta)) warning("Duplicated rows in meta data")
 
 ## checking encoding ----
 for (i in seq_along(lst_metadata)) if (any(!unlist(unique(apply(lst_metadata[[i]][, c("local","regional","comment")], 2, Encoding))) %in% c("UTF-8","unknown"))) warning(paste0("Encoding issue in ", listfiles[i]))
