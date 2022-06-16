@@ -8,11 +8,11 @@ ddata <- data.table::data.table(
   regional = "Elimyssalo Nature Reserve, Finland",
   local = rep(c("high pH","intermediate pH","low pH","very low pH"), each = 2),
 
-  year = rep(c(1998L, 2018L), 8L),
-  period = rep(c("historical","recent"), 8L),
-  timepoints = rep(c("T1","T2"), 8L),
+  year = rep(c(1998L, 2018L), 4L),
+  period = rep(c("historical","recent"), 4L),
+  timepoints = rep(c("T1","T2"), 4L),
 
-  regional_richness = rep(c(110L, 112L), 8L),
+  regional_richness = rep(c(110L, 112L), 4L),
   local_richness = c(11.6, 15.8, 11.8, 13.2, 9.6, 11.7, 10.1, 11.5)
 )
 
