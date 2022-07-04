@@ -44,11 +44,14 @@ dt[, period := NULL]
 
 # * checking timepoints ----
 # if (!all(dt[, (check = which.max(year) == which.max(timepoints)), by = dataset_id]$check)) warning('timepoints order has to be checked')
-if (anyDuplicated(dt)) warning("Duplicated rows in meta data")
+
+## checking duplicated rows ----
+if (anyDuplicated(dt)) warning("Duplicated rows in dt")
 
 # Saving dt ----
-data.table::fwrite(dt, 'data/communities.csv', row.names = F)
-data.table::fwrite(dt, 'C:/Users/as80fywe/Dropbox (iDiv)/BioTIMEx/Local-Regional Homogenization/_richness/communities.csv', row.names = F)
+data.table::fwrite(dt, 'data/communities.csv', row.names = FALSE, na = "NA")
+if (file.exists("./data/homogenisation_dropbox_folder_path.rds"))
+  data.table::fwrite(dt, paste0(base::readRDS("./data/homogenisation_dropbox_folder_path.rds"), "_richness/communities.csv"), row.names = FALSE)
 
 
 
@@ -97,14 +100,16 @@ data.table::setnames(meta, c('alpha_grain', 'gamma_bounding_box', 'gamma_sum_gra
 meta[, ":="(latitude = parzer::parse_lat(latitude), longitude = parzer::parse_lon(longitude))]
 
 # Deleting period and timepoints ----
-meta[, c("timepoints","period") := NULL]
+meta[, c("period") := NULL]
 
 # Ordering metadata ----
 data.table::setorder(meta, dataset_id, regional, local, year)
 data.table::setcolorder(meta, intersect(column_names_template_metadata, colnames(meta)))
 
 # Checks ----
-if (anyDuplicated(meta)) warning("Duplicated rows in meta data")
+
+## checking duplicated rows ----
+if (anyDuplicated(meta)) warning("Duplicated rows in metadata")
 
 ## checking encoding ----
 for (i in seq_along(lst_metadata)) if (any(!unlist(unique(apply(lst_metadata[[i]][, c("local","regional","comment")], 2, Encoding))) %in% c("UTF-8","unknown"))) warning(paste0("Encoding issue in ", listfiles[i]))
@@ -142,6 +147,7 @@ if (nrow(meta) != nrow(unique(dt[, .(dataset_id, regional, local, year)]))) warn
 
 
 # Saving meta ----
-data.table::fwrite(meta, 'data/metadata.csv', row.names = F)
-data.table::fwrite(meta, 'C:/Users/as80fywe/Dropbox (iDiv)/BioTIMEx/Local-Regional Homogenization/_richness/metadata.csv', row.names = F)
+data.table::fwrite(meta, 'data/metadata.csv', row.names = FALSE, na = "NA")
+if (file.exists("./data/homogenisation_dropbox_folder_path.rds"))
+  data.table::fwrite(meta, paste0(base::readRDS("./data/homogenisation_dropbox_folder_path.rds"), "/_richness/metadata.csv"), row.names = FALSE)
 
