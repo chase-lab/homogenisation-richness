@@ -47,7 +47,8 @@ meta[, ':='(
   gamma_bounding_box_type = "box",
   gamma_bounding_box_comment = "coarse area of a box covering all sites",
 
-  comment = "Extracted from https://doi.org/10.1007/s10750-020-04356-1 . Methods: 'We sampled 38 stream reaches in the Sao Jose dos Dourados and Turvo-Grande river basins of Sao Paulo state, southeastern Brazil, in both 2003 and 2013.[...]Streams were surveyed once per year during the dry season (May–August). We used the same methodology to sample fish assemblages in both periods[...]We collected 46 and 44 species in 2003 and 2013, respectively, and stream reach alpha diversity (local species richness) was not different between years (2003: mean = 10.42 ± SD 3.81 and 2013: mean = 9.26 ± SD 3.65; t = 1.35, P value = 0.18).'"
+  comment = "Extracted from https://doi.org/10.1007/s10750-020-04356-1 . Methods: 'We sampled 38 stream reaches in the Sao Jose dos Dourados and Turvo-Grande river basins of Sao Paulo state, southeastern Brazil, in both 2003 and 2013.[...]Streams were surveyed once per year during the dry season (May–August). We used the same methodology to sample fish assemblages in both periods[...]We collected 46 and 44 species in 2003 and 2013, respectively, and stream reach alpha diversity (local species richness) was not different between years (2003: mean = 10.42 ± SD 3.81 and 2013: mean = 9.26 ± SD 3.65; t = 1.35, P value = 0.18).'",
+  doi = 'https://doi.org/10.1007/s10750-020-04356-1'
 )]
 
 dir.create(paste0('data/wrangled data/', dataset_id), showWarnings = FALSE)

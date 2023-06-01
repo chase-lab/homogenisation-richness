@@ -49,7 +49,8 @@ meta[, ':='(
   gamma_sum_grains_type = "lake_pond",
   gamma_sum_grains_comment = "sum of the areas of the 51 ponds",
 
-  comment = "Extracted from DOI 10.1007/s10531-011-0223-9. Methods: 'We surveyed 51 ponds in northern England in 1995/6 and again in 2006, identifying all macrophytes (167 species) and all macroinvertebrates (221 species, excluding Diptera) to species.[...]The presence and absence of invertebrate species was recorded using standardised sampling methods.' Effort is the number of historical sites that were resurveyed."
+  comment = "Extracted from https://doi.org/10.1007/s10531-011-0223-9. Methods: 'We surveyed 51 ponds in northern England in 1995/6 and again in 2006, identifying all macrophytes (167 species) and all macroinvertebrates (221 species, excluding Diptera) to species.[...]The presence and absence of invertebrate species was recorded using standardised sampling methods.' Effort is the number of historical sites that were resurveyed.",
+  doi = 'https://doi.org/10.1007/s10531-011-0223-9'
 )]
 
 dir.create(paste0('data/wrangled data/', dataset_id), showWarnings = FALSE)

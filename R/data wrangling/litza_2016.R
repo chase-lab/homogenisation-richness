@@ -47,7 +47,8 @@ meta[, ':='(
   gamma_sum_grains_type = "plot",
   gamma_sum_grains_comment = "area of sampled plots",
 
-  comment = "Extracted from http://dx.doi.org/10.1016/j.biocon.2016.12.003. Methods: 'Because the original study was carried out in summer, the sampling was done in June and July 2015 even though this might miss spring flowering plants. The plot length in the original studywas given as usually varying between 60 and 80 m of a hedgerow. For the resurvey, we applied a fixed length of 70 m. The plot width was defined by the borders of the adjacent fields in accordance with the original study, meaning that the field margins were also included in the sampling.' Effort is the number of historical sites that were resurveyed."
+  comment = "Extracted from http://dx.doi.org/10.1016/j.biocon.2016.12.003. Methods: 'Because the original study was carried out in summer, the sampling was done in June and July 2015 even though this might miss spring flowering plants. The plot length in the original studywas given as usually varying between 60 and 80 m of a hedgerow. For the resurvey, we applied a fixed length of 70 m. The plot width was defined by the borders of the adjacent fields in accordance with the original study, meaning that the field margins were also included in the sampling.' Effort is the number of historical sites that were resurveyed.",
+  doi = 'http://dx.doi.org/10.1016/j.biocon.2016.12.003'
 )]
 
 dir.create(paste0('data/wrangled data/', dataset_id), showWarnings = FALSE)

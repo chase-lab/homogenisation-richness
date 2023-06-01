@@ -47,7 +47,8 @@ meta[, ':='(
   gamma_sum_grains_type = "plot",
   gamma_sum_grains_comment = "area of sampled plots",
 
-  comment = "Extracted from table 1, DOI: 10.1111/avsc.12424. Methods: 'A representative part of the vegetation was recorded via plots varying between 25–150 m2 and 60–150 m2 for hedgerows and forests, respectively.'"
+  comment = "Extracted from table 1, DOI: 10.1111/avsc.12424. Methods: 'A representative part of the vegetation was recorded via plots varying between 25–150 m2 and 60–150 m2 for hedgerows and forests, respectively.'",
+  doi = 'https://doi.org/10.1111/avsc.12424'
 )][, gamma_sum_grains := effort * alpha_grain]
 
 dir.create(paste0('data/wrangled data/', dataset_id), showWarnings = FALSE)

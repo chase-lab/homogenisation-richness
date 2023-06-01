@@ -46,7 +46,8 @@ meta[, ':='(
   gamma_sum_grains_type = "plot",
   gamma_sum_grains_comment = "area of sampled plots",
 
-  comment = "Extracted from table 1, DOI: 10.1002/ece3.7592. Methods: 'The study site “Härkösuo” mire is a narrow, sloping fen, approximately 1 km long and up to 150 m wide (0.171km2).[...]The vegetation data of Tahvanainen et al. (2002) consists of 0.25m2 plots at all water sampling points (n=77), 148 plots randomly chosen within the grid squares, and 15 additional plots near the springs with 5-m interval. In summer 2018, we repeated the water sampling and vegetation survey. Original vegetation plots had coordinates of 1-m accuracy attached to the regular grid over the mire, and some wooden poles used to mark the grid points in 1998 remain in place.' Effort is the number of plots per habitat type (pH level)."
+  comment = "Extracted from table 1, https://doi.org/10.1002/ece3.7592. Methods: 'The study site “Härkösuo” mire is a narrow, sloping fen, approximately 1 km long and up to 150 m wide (0.171km2).[...]The vegetation data of Tahvanainen et al. (2002) consists of 0.25m2 plots at all water sampling points (n=77), 148 plots randomly chosen within the grid squares, and 15 additional plots near the springs with 5-m interval. In summer 2018, we repeated the water sampling and vegetation survey. Original vegetation plots had coordinates of 1-m accuracy attached to the regular grid over the mire, and some wooden poles used to mark the grid points in 1998 remain in place.' Effort is the number of plots per habitat type (pH level).",
+  doi = 'https://doi.org/10.1002/ece3.7592'
 )][, gamma_sum_grains := effort * alpha_grain]
 
 dir.create(paste0('data/wrangled data/', dataset_id), showWarnings = FALSE)

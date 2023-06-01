@@ -28,3 +28,5 @@ gamma_sum_grains_comment	TRUE
 realm	TRUE
 taxon	TRUE
 comment	TRUE
+comment_standardisation FALSE
+doi TRUE
