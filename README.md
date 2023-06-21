@@ -1,3 +1,7 @@
+
+
+[![DOI](https://zenodo.org/badge/406429515.svg)](https://zenodo.org/badge/latestdoi/406429515)
+
 # homogenisation-richness
 Research project aggregating biodiversity data from checklists. Child project from chase-lab/homogenisation and brother project of chase-lab/metacommunity-surveys and chase-lab/checklist_change. `Richness` project aggregates data from studies that provided only average richness values at the alpha scale and a richness value at the gamma scale. 
 
