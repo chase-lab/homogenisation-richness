@@ -3,13 +3,13 @@
 [![DOI](https://zenodo.org/badge/406429515.svg)](https://zenodo.org/badge/latestdoi/406429515)
 
 # homogenisation-richness
-Research project aggregating biodiversity data from checklists. Child project from chase-lab/homogenisation and brother project of chase-lab/metacommunity-surveys and chase-lab/checklist_change. `Richness` project aggregates data from studies that provided only average richness values at the alpha scale and a richness value at the gamma scale. 
+Research project aggregating biodiversity data from checklists. `Richness` project aggregates data from studies that provided only average richness values at the alpha scale and a richness value at the gamma scale. 
 
 ## Description
-This research compendium regroups scripts used to download, re-structure and aggregate data sets to constitute a large meta-analysis of communities sampled at least twice, 10 years apart or more. It is a child project from chase-lab/homogenisation and a brother project to chase-lab/metacommunity-surveys and chase-lab/checklist_change.
+This research compendium regroups scripts used to download, re-structure and aggregate data sets to constitute a large meta-analysis of communities sampled at least twice, 10 years apart or more. It is related to projects chase-lab/metacommunity-surveys and chase-lab/checklist_change.
 
 ## Data
-Raw and aggregated data tables are provided. Aggregated data are in data/communities.csv and data/metadata.csv and column definitions are given in definitions_communities.txt and definitions_metadata.txt.
+Raw and aggregated data tables are provided. Aggregated data are in ./data/communities.csv and ./data/metadata.csv and column definitions are given in ./data/definitions_communities.txt and ./data/definitions_metadata.txt.
 
 ## Reproducibility and R environment
 
